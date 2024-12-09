@@ -1,0 +1,59 @@
+{
+    "baseurl": "https://noahhaile.com/",
+    "title": "NoahHaile.com blog, projects & updates",
+    "languageCode": "en-us",
+    "theme": "hello-friend-ng",
+    "paginate": 10,
+    "params": {
+        "author": "Noah Hailegiorgis",
+        "dateform": "Jan 2, 2006",
+        "dateformShort": "Jan 2",
+        "dateformNum": "2006-01-02",
+        "dateformNumTime": "2006-01-02 15:04",
+        "homeSubtitle": "Articles, tutorials, projects, videos and stuff I am working on.",
+        "disableReadOtherPosts": false,
+        "enableThemeToggle": true,
+        "enableSharingButtons": true,
+        "enableGlobalLanguageMenu": false,
+        "description": "I mostly write about online businesses, programming, the internet and life I guess.",
+        "keywords": "Open source, FOSS, java, spring-boot, spring, SEO, Local-SEO, web-development, clickedtools, life-philosophy",
+        "images": [
+            ""
+        ],
+        "Portrait": {
+            "Path": "/NicePhoto.jpeg",
+            "alt": "Self Portrait"
+        },
+        "logo": {
+            "logoText": "The internet is pretty awesome"
+        },
+        "social": [
+            {
+                "url": "mailto:noah.hailegiorgis.dev@gmail.com",
+                "name": "email"
+            },
+            {
+                "url": "https://t.me/xyzfind",
+                "name": "telegram"
+            }
+        ]
+    },
+    "menu": {
+        "main": [
+            {
+                "Identifier": "about",
+                "Name": "About",
+                "URL": "/about/"
+            },
+            {
+                "Identifier": "articles",
+                "Name": "Articles",
+                "URL": "/articles/"
+            }
+        ]
+    },
+    "taxonomies": {
+        "category": "categories",
+        "tag": "tags"
+    }
+}
