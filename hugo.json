@@ -10,13 +10,13 @@
         "dateformShort": "Jan 2",
         "dateformNum": "2006-01-02",
         "dateformNumTime": "2006-01-02 15:04",
-        "homeSubtitle": "Articles, tutorials, indie-hacking, projects, videos and stuff I am working on.",
+        "homeSubtitle": "Articles, tutorials, indie-hacking, generative-art, other projects, and videos.",
         "disableReadOtherPosts": false,
         "enableThemeToggle": true,
         "enableSharingButtons": true,
         "enableGlobalLanguageMenu": false,
-        "description": "I mostly write about indie-hacking, programming, the internet and life too sometimes.",
-        "keywords": "Open source, indie-hacking, FOSS, java, spring-boot, spring, SEO, Local-SEO, web-development, clickedtools, life-philosophy",
+        "description": "I mostly write about indie-hacking, generative-art, programming, the internet and life too sometimes.",
+        "keywords": "Open source, indie-hacking, generative-art, FOSS, java, spring-boot, spring, SEO, Local-SEO, web-development, clickedtools",
         "images": [
             ""
         ],
