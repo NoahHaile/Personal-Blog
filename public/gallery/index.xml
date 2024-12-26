@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 13 Aug 2024 10:57:26 +0300</lastBuildDate>
     <atom:link href="https://noahhaile.com/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Stereo</title>
-      <link>https://noahhaile.com/gallery/piece3/</link>
+      <title>Pathways</title>
+      <link>https://noahhaile.com/gallery/piece1/</link>
       <pubDate>Tue, 13 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece3/</guid>
-      <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
+      <guid>https://noahhaile.com/gallery/piece1/</guid>
+      <description>&lt;p&gt;Roads are like flowers you know.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flowers</title>
@@ -23,11 +23,11 @@
       <description>&lt;p&gt;Pretty flowers are made with circles.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Pathways</title>
-      <link>https://noahhaile.com/gallery/piece1/</link>
+      <title>Stereo</title>
+      <link>https://noahhaile.com/gallery/piece3/</link>
       <pubDate>Wed, 24 Jul 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece1/</guid>
-      <description>&lt;p&gt;Roads are like flowers you know.&lt;/p&gt;</description>
+      <guid>https://noahhaile.com/gallery/piece3/</guid>
+      <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
