@@ -10,13 +10,13 @@
         "dateformShort": "Jan 2",
         "dateformNum": "2006-01-02",
         "dateformNumTime": "2006-01-02 15:04",
-        "homeSubtitle": "Articles, tutorials, indie-hacking, generative-art, other projects, and videos.",
+        "homeSubtitle": "Hosting/Curating digital art and indie-hacking projects.",
         "disableReadOtherPosts": false,
         "enableThemeToggle": true,
         "enableSharingButtons": true,
         "enableGlobalLanguageMenu": false,
         "description": "I mostly write about indie-hacking, generative-art, programming, the internet and life too sometimes.",
-        "keywords": "Open source, indie-hacking, generative-art, FOSS, java, spring-boot, spring, SEO, Local-SEO, web-development, clickedtools",
+        "keywords": "Open source, indie-hacking, generative-art, creative coding, clickedtools",
         "images": [
             ""
         ],
@@ -25,30 +25,40 @@
             "alt": "Self Portrait"
         },
         "logo": {
-            "logoText": "The internet is pretty awesome"
+            "logoText": "ሰላም, ዓለም"
         },
         "social": [
             {
-                "url": "mailto:noah.hailegiorgis.dev@gmail.com",
+                "url": "mailto:noah@noahhaile.com",
                 "name": "email"
             },
+            
             {
                 "url": "https://t.me/xyzfind",
                 "name": "telegram"
+            },
+            {
+                "url": "https://linkedin.com/in/noahhaile",
+                "name": "linkedin"
             }
         ]
     },
     "menu": {
         "main": [
             {
+                "Identifier": "gallery",
+                "Name": "Gallery",
+                "URL": "/gallery/"
+            },
+            {
                 "Identifier": "about",
                 "Name": "About",
                 "URL": "/about/"
             },
             {
-                "Identifier": "articles",
-                "Name": "Articles",
-                "URL": "/articles/"
+                "Identifier": "writing",
+                "Name": "Writing",
+                "URL": "/writing/"
             }
         ]
     },

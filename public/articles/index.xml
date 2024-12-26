@@ -1,27 +1,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Articles on NoahHaile.com blog, projects &amp; updates</title>
-        <link>https://noahhaile.com/articles/</link>
+        <link>http://localhost:1313/articles/</link>
         <description>Recent content in Articles on NoahHaile.com blog, projects &amp; updates</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 02 Nov 2024 10:57:26 +0300</lastBuildDate>
-        <atom:link href="https://noahhaile.com/articles/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>What They Don’t Teach You About Learning Online</title>
-            <link>https://noahhaile.com/articles/onlinelearning/</link>
+            <link>http://localhost:1313/articles/onlinelearning/</link>
             <pubDate>Sat, 02 Nov 2024 10:57:26 +0300</pubDate>
             
-            <guid>https://noahhaile.com/articles/onlinelearning/</guid>
+            <guid>http://localhost:1313/articles/onlinelearning/</guid>
             <description>&lt;p&gt;The internet has given us access to an infinite library of knowledge, yet navigating it can feel more like wading through quicksand than walking into a well-organized classroom. Learning online seems straightforward&amp;hellip; find a course, watch videos, take notes but nothing is ever so simple. You often times just walk away with frustration.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;1-the-hidden-skill-of-finding-the-right-resources&#34;&gt;&lt;strong&gt;1. The Hidden Skill of Finding the Right Resources&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;It’s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you’re struggling with.&lt;/p&gt;</description>
+&lt;p&gt;It&amp;rsquo;s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you&amp;rsquo;re struggling with.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>The internet has given us access to an infinite library of knowledge, yet navigating it can feel more like wading through quicksand than walking into a well-organized classroom. Learning online seems straightforward&hellip; find a course, watch videos, take notes but nothing is ever so simple. You often times just walk away with frustration.</p>
 <hr>
 <h4 id="1-the-hidden-skill-of-finding-the-right-resources"><strong>1. The Hidden Skill of Finding the Right Resources</strong></h4>
-<p>It’s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you’re struggling with.</p>
+<p>It&rsquo;s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you&rsquo;re struggling with.</p>
 <p><strong>What to do instead:</strong></p>
 <ul>
 <li>Look for resources with clear learning objectives.</li>
@@ -29,26 +29,25 @@
 </ul>
 <hr>
 <h4 id="2-the-illusion-of-mastery"><strong>2. The Illusion of Mastery</strong></h4>
-<p>Watching a video and nodding along doesn’t mean you’ve learned anything. Online platforms make it easy to feel productive without actually achieving much. You’re clicking “Next” on modules, checking off lessons, but… can you teach what you just learned to someone else?</p>
+<p>Watching a video and nodding along doesn&rsquo;t mean you&rsquo;ve learned anything. Online platforms make it easy to feel productive without actually achieving much. You&rsquo;re clicking &ldquo;Next&rdquo; on modules, checking off lessons, but&hellip; can you teach what you just learned to someone else?</p>
 <p><strong>How to combat this:</strong></p>
 <ul>
 <li>Pause often and summarize what you just learned, think about how you can apply what you just learned.</li>
-<li>Apply the “Feynman Technique”: explain the concept as if you’re teaching a 5-year-old.</li>
-<li>And if you have the heart and patience for it, try out exercises before moving on, even if they aren’t assigned.</li>
+<li>Apply the &ldquo;Feynman Technique&rdquo;: explain the concept as if you&rsquo;re teaching a 5-year-old.</li>
+<li>And if you have the heart and patience for it, try out exercises before moving on, even if they aren&rsquo;t assigned.</li>
 </ul>
 <hr>
 <h4 id="3-distraction-is-the-silent-killer"><strong>3. Distraction Is the Silent Killer</strong></h4>
-<p>Don&rsquo;t even try to do something else while you are learning(half the time you dedicated to learning if you have to). Your biggest challenge isn’t the complexity of the material, it’s the ten other tabs calling for your attention. The pull to “quickly check” social media or respond to a notification breaks the flow of deep learning.</p>
+<p>Don&rsquo;t even try to do something else while you are learning(half the time you dedicate to learning if you have to). Your biggest challenge isn&rsquo;t the complexity of the material, it&rsquo;s the ten other tabs calling for your attention.</p>
 <p><strong>How to protect your focus:</strong></p>
 <ul>
-<li>Block distracting websites using tools like Freedom or Cold Turkey.</li>
 <li>Study in bursts: 25 minutes of focus, 5 minutes of break (Pomodoro the work).</li>
 <li>Treat your online learning time like a sacred appointment. Put it on your calendar.</li>
 </ul>
 <hr>
 <h4 id="4-passive-learning-vs-active-doing"><strong>4. Passive Learning vs. Active Doing</strong></h4>
-<p>Online courses can lull you into passivity&hellip; watching, reading, and absorbing, but rarely doing. Real growth happens when you put what you’ve learned into practice.</p>
-<p>For example, if you’re learning to code, build something. If you’re studying marketing, create a campaign even if it’s hypothetical. Knowledge solidifies when it meets action.</p>
+<p>Online courses can lull you into passivity&hellip; watching, reading, and absorbing, but rarely doing. Real growth happens when you put what you&rsquo;ve learned into practice.</p>
+<p>For example, if you’re learning to code, build something. If you&rsquo;re studying marketing, create a campaign even if it&rsquo;s hypothetical. Knowledge solidifies when it meets action. And if you can&rsquo;t find a way to practice, maybe you should put the learning aside until you find a reason to engage with it.</p>
 <p><strong>Ask yourself:</strong> <em>What can I make with this?</em></p>
 <ul>
 <li>Create projects.</li>
@@ -57,49 +56,40 @@
 </ul>
 <hr>
 <h4 id="5-motivation-is-a-myth"><strong>5. Motivation Is a Myth</strong></h4>
-<p>Waiting to “feel motivated” before learning online is a trap. Unlike traditional education, where deadlines and instructors push you forward, online learning relies on self-discipline. Some days, the spark won’t be there, and that’s fine.</p>
+<p>Sticking it through until the end is a skill. It will always feel easier to get started than to keep going in this case. Unlike traditional education, where deadlines and instructors push you forward, online learning relies on self-discipline. Some days, the spark won&rsquo;t be there, and that&rsquo;s fine.</p>
 <p><strong>How to stay consistent:</strong></p>
 <ul>
 <li>Build a routine. Learn at the same time every day.</li>
 <li>Start small: Commit to 5 minutes. Often, just starting leads to longer sessions.</li>
-<li>Celebrate small wins—finishing a chapter, solving a problem, or understanding a tricky concept.</li>
+<li>Celebrate small wins: finishing a chapter, solving a problem, or understanding a tricky concept.</li>
 </ul>
 <hr>
-<h4 id="6-connection-makes-it-stick"><strong>6. Connection Makes It Stick</strong></h4>
-<p>Learning online can feel lonely, but you don’t have to do it alone. Communities and peer discussions turn abstract concepts into something tangible. Talking about what you’ve learned forces your brain to process it in new ways.</p>
-<p><strong>Where to connect:</strong></p>
-<ul>
-<li>Join forums, Slack groups, or Discord channels related to your subject.</li>
-<li>Find a study buddy to keep each other accountable.</li>
-<li>Participate in online challenges or hackathons to test your skills.</li>
-</ul>
-<hr>
-<h4 id="7-learning-how-to-learn"><strong>7. Learning How to Learn</strong></h4>
-<p>Here’s the kicker: the most important skill isn’t coding, design, or writing—it’s learning how to learn. Every course, tutorial, or video you consume teaches you a little about how <em>you</em> process information best.</p>
+<h4 id="6-learning-how-to-learn"><strong>6. Learning How to Learn</strong></h4>
+<p>Here&rsquo;s the kicker: the most important skill isn&rsquo;t coding, design, or writing&hellip; it&rsquo;s learning how to learn. Every course, tutorial, or video you consume teaches you a little about how <em>you</em> process information best.</p>
 <p><strong>Experiment with:</strong></p>
 <ul>
 <li>Visual vs. text-based learning.</li>
 <li>Active recall techniques like flashcards.</li>
 <li>Taking notes by hand vs. typing.</li>
 </ul>
-<p>Reflect on what works and double down on it.</p>
+<p>Reflect on what works and double down.</p>
 <hr>
 <h3 id="final-thoughts"><strong>Final Thoughts</strong></h3>
-<p>Online learning is a journey without a guide, but that’s what makes it so empowering. It’s messy, nonlinear, and sometimes frustrating, but once you embrace the process, the possibilities are endless.</p>
-<p>The real secret? Treat every hiccup, whether it’s a boring course, a failed attempt, or a moment of distraction as a step forward. Because when you learn how to learn online, you unlock the ultimate superpower: teaching yourself anything, anywhere.</p>
+<p>Online learning is a journey without a guide, but that&rsquo;s what makes it so empowering. It&rsquo;s messy, nonlinear, and sometimes frustrating, but once you embrace the process, the possibilities are endless.</p>
+<p>The real secret? Treat every hiccup, whether it&rsquo;s a boring course, a failed attempt, or a moment of distraction as a step forward. Because when you learn how to learn online, you unlock the ultimate superpower: teaching yourself anything, anywhere.</p>
 ]]></content>
         </item>
         
         <item>
             <title>Great Artists Steal - Guide to SEO Competitor Analysis</title>
-            <link>https://noahhaile.com/articles/greatartistssteal/</link>
+            <link>http://localhost:1313/articles/greatartistssteal/</link>
             <pubDate>Thu, 24 Oct 2024 10:57:26 +0300</pubDate>
             
-            <guid>https://noahhaile.com/articles/greatartistssteal/</guid>
-            <description>&lt;p&gt;Less than &lt;strong&gt;3% of consumers&lt;/strong&gt; say they never search for local businesses online. That means nearly everyone—your potential customers included—relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn’t online, the hard truth is: you’re falling behind.&lt;/p&gt;
-&lt;p&gt;The good news? It’s never too late to catch up. And the first step is simple—&lt;strong&gt;look at what your competitors are doing.&lt;/strong&gt;&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>Less than <strong>3% of consumers</strong> say they never search for local businesses online. That means nearly everyone—your potential customers included—relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn’t online, the hard truth is: you’re falling behind.</p>
-<p>The good news? It’s never too late to catch up. And the first step is simple—<strong>look at what your competitors are doing.</strong></p>
+            <guid>http://localhost:1313/articles/greatartistssteal/</guid>
+            <description>&lt;p&gt;Less than &lt;strong&gt;3% of consumers&lt;/strong&gt; say they never search for local businesses online. That means nearly everyone relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn&amp;rsquo;t online, the hard truth is: you&amp;rsquo;re falling behind.&lt;/p&gt;
+&lt;p&gt;The good news? It&amp;rsquo;s never too late to catch up. And the first step is simple. &lt;strong&gt;Look at what your competitors are doing.&lt;/strong&gt;&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Less than <strong>3% of consumers</strong> say they never search for local businesses online. That means nearly everyone relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn&rsquo;t online, the hard truth is: you&rsquo;re falling behind.</p>
+<p>The good news? It&rsquo;s never too late to catch up. And the first step is simple. <strong>Look at what your competitors are doing.</strong></p>
 <hr>
 <h3 id="step-1-competitor-analysis"><strong>Step 1: Competitor Analysis</strong></h3>
 <p>Begin by identifying businesses offering similar services in your area. Start with a basic search for &ldquo;<em>[business_type] near me</em>&rdquo; on Google. Check out the top-ranking results and ask yourself:</p>
@@ -111,79 +101,39 @@
 <p>This simple research gives you a snapshot of where you stand relative to the competition.</p>
 <hr>
 <h3 id="step-2-gauge-the-competition"><strong>Step 2: Gauge the Competition</strong></h3>
-<p>By now, you’ll have a good sense of the local landscape. In some cases, you may find that the competition is lacking—a golden opportunity to rise to the top with a little effort. But in most cases, you’ll discover plenty of strong players in your vicinity. Competing with them will require focus, effort, and patience.</p>
-<p>Competitor analysis isn’t just about understanding where you rank—it’s about uncovering the strategies others use to succeed. You can:</p>
+<p>By now, you’ll have a good sense of the local landscape. In some cases, you may find that the competition is lacking&hellip; a golden opportunity to rise to the top with a little effort. But in most cases, you&rsquo;ll discover plenty of strong players in your vicinity. That means it time for you to buckle down.</p>
+<p>Competitor analysis isn&rsquo;t just about understanding where you rank, it&rsquo;s about uncovering the strategies others use to succeed. You can:</p>
 <ul>
-<li>Identify <strong>keywords</strong> they’re targeting.</li>
+<li>Identify <strong>keywords</strong> they&rsquo;re targeting.</li>
 <li>Analyze their <strong>backlinks</strong> (which websites link to them).</li>
 <li>Estimate their <strong>traffic</strong> and <strong>search volume.</strong></li>
 </ul>
 <hr>
 <h3 id="step-3-use-the-right-tools"><strong>Step 3: Use the Right Tools</strong></h3>
-<p>Fortunately, you don’t need to spend a fortune to gather this information. While many advanced tools are pricey, there are accessible options like <strong>Ubersuggest</strong>, which offers freemium features to analyze keywords and traffic.</p>
-<p>These tools help you discover what’s working for competitors—allowing you to skip the trial-and-error phase of SEO. More importantly, competitor analysis can reveal <strong>market gaps</strong>—opportunities your competitors haven’t capitalized on.</p>
+<p>Fortunately, you don&rsquo;t need to spend a fortune to gather this information. While many advanced tools are pricey, there are accessible options like <strong>Ubersuggest</strong>, which offers freemium features to analyze keywords and traffic.</p>
+<p>These tools help you discover what&rsquo;s working for competitors—allowing you to skip the trial-and-error phase of SEO. More importantly, competitor analysis can reveal <strong>market gaps</strong>. Opportunities your competitors have maybe not capitalized on.</p>
 <hr>
 <h3 id="why-competitor-analysis-speeds-up-seo-success"><strong>Why Competitor Analysis Speeds Up SEO Success</strong></h3>
 <p>SEO is a long game. It involves testing strategies, tracking results, and adjusting over time. This slow feedback loop can make progress feel glacial. But by leveraging the groundwork your competitors have already laid, you can cut through the trial-and-error process and implement proven tactics faster.</p>
 <p>Competitor analysis helps you:</p>
 <ul>
 <li>Avoid wasting time on ineffective strategies.</li>
-<li>Find untapped niches or underserved audiences.</li>
+<li>Find untapped niches or under-served audiences.</li>
 <li>Build a clear action plan based on data, not guesswork.</li>
 </ul>
 <hr>
 <h3 id="success-is-within-reach"><strong>Success Is Within Reach</strong></h3>
 <p>Most of this work can be done independently with a bit of curiosity and persistence. Once you understand the competitive landscape and refine your strategy, it’s only a matter of time before you start seeing results.</p>
-<p>With the right approach, your business can become the go-to choice in your area. And before you know it, you’ll have more customers than you know what to do with.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Why They Tell You to Work Smart</title>
-            <link>https://noahhaile.com/articles/worksmart/</link>
-            <pubDate>Mon, 12 Aug 2024 10:57:26 +0300</pubDate>
-            
-            <guid>https://noahhaile.com/articles/worksmart/</guid>
-            <description>&lt;p&gt;Bob comes home to his wife, Alice, after a long day. He sinks into his favorite recliner, puts his feet up, and listens to the evening news. Meanwhile, Alice prepares supper.&lt;/p&gt;
-&lt;p&gt;Can you guess what Bob did all day?&lt;/p&gt;
-&lt;p&gt;Far more can be inferred from the context of this story than from simply knowing that Bob “worked.” Was he building houses under the scorching sun, or typing feverishly at a keyboard in an air-conditioned office? How much hardship did he endure? What did he truly accomplish?&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>Bob comes home to his wife, Alice, after a long day. He sinks into his favorite recliner, puts his feet up, and listens to the evening news. Meanwhile, Alice prepares supper.</p>
-<p>Can you guess what Bob did all day?</p>
-<p>Far more can be inferred from the context of this story than from simply knowing that Bob “worked.” Was he building houses under the scorching sun, or typing feverishly at a keyboard in an air-conditioned office? How much hardship did he endure? What did he truly accomplish?</p>
-<p>When we blanket activities under the label “work,” we obscure the important details—the nuances that reveal effort, impact, and meaning. And in that obscurity lies a curious problem.</p>
-<hr>
-<h3 id="the-simulation-of-productivity"><strong>The Simulation of Productivity</strong></h3>
-<p>Corporate structures are home to some of the best-compensated individuals in the world—marketing directors and managers among them. Yet, second only to government institutions, large corporations are also notoriously inefficient.</p>
-<p>One of Marx’s most enduring critiques of capitalism was the <strong>alienation of labor</strong>—the idea that workers are disconnected from the end product of their efforts. This alienation didn’t just disrupt a sense of purpose; it had an unintended side effect: <strong>work became less about creating and more about simulating productivity.</strong></p>
-<p>Meetings, reports, design documents, and endless proposals dominate the corporate world. These artifacts—valuable in moderation—often balloon out of proportion, requiring perpetual updates and maintenance. Layered on top of this are projects designed not just to meet their core objectives but to scale, adapt, and accommodate every possible scenario.</p>
-<p>The result? A system that can absorb infinite man-hours, where the actual <strong>end product</strong>—if it ever materializes—is little more than a byproduct of the process.</p>
-<hr>
-<h3 id="when-work-becomes-its-own-justification"><strong>When Work Becomes Its Own Justification</strong></h3>
-<p>The phrase “<strong>work smarter, not harder</strong>” was coined in the 1930s, likely as a reaction to the rising tide of procedural bloat. Even then, it became apparent that businesses were increasingly weighed down by processes—tasks that felt productive but often lacked a clear understanding of their ROI.</p>
-<p>In enormous organizational structures, this inefficiency can sometimes be justified. Processes, even bloated ones, help maintain communication, coordination, and control. But outside of these systems, the same logic can wreak havoc on personal productivity.</p>
-<hr>
-<h3 id="the-trap-of-surface-level-productivity"><strong>The Trap of Surface-Level Productivity</strong></h3>
-<p>It’s far too easy to mimic this corporate mindset in our personal and professional lives. We fill our days with tasks that appear meaningful but do little to solve the real problems we face. Cleaning your inbox for hours, perfecting a to-do list, or researching for the sake of researching—these can all simulate productivity without moving the needle on what truly matters.</p>
-<p>Breaking free of this cycle requires a commitment to clarity of purpose. It’s about asking:</p>
-<ul>
-<li>What is the <strong>root problem</strong> I need to solve?</li>
-<li>What are the <strong>bare essentials</strong> I need to address it?</li>
-</ul>
-<p>When you strip away the noise, efficiency stops being about managing time and becomes a practice of focus—of keeping your sights locked on the core issue and iterating on solutions.</p>
-<hr>
-<h3 id="work-quick-work-smart"><strong>Work Quick. Work Smart.</strong></h3>
-<p>This isn’t about being more effective with company time or reducing meeting bloat. It’s about resisting the urge to simulate productivity in all aspects of life. It’s about practicing the art of directness and simplicity.</p>
-<p>True productivity isn’t measured by how much effort you exert or how busy you feel. It’s measured by the clarity of your purpose and the meaningful progress you make.</p>
-<p>When the incentive is right, the lesson is simple: <strong>work quick, work smart, and focus on what truly matters.</strong></p>
+<p>With the right approach, your business can become the go-to choice in your area. And before you know it, you&rsquo;ll have more customers than you know what to do with.</p>
 ]]></content>
         </item>
         
         <item>
             <title>Do I need Local SEO?</title>
-            <link>https://noahhaile.com/articles/doineedseo/</link>
+            <link>http://localhost:1313/articles/doineedseo/</link>
             <pubDate>Mon, 22 Jul 2024 10:57:26 +0300</pubDate>
             
-            <guid>https://noahhaile.com/articles/doineedseo/</guid>
+            <guid>http://localhost:1313/articles/doineedseo/</guid>
             <description>&lt;p&gt;A strong online presence is no longer optional&amp;hellip; it’s essential. Today, more than half of all customer acquisition happens online, making your digital presence as important, if not more so, than having a prime physical location. For local businesses, one of the most powerful tools at your disposal is Google’s &lt;strong&gt;Map Pack&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The Map Pack is a set of three Google Maps-based results that appear prominently on the first page of search results when users conduct local searches. Essentially, when Google detects that someone is looking for something nearby, the Map Pack shows up front and center. Don’t believe it? Search “[business_type] near me,” and you’ll see it in action.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>A strong online presence is no longer optional&hellip; it’s essential. Today, more than half of all customer acquisition happens online, making your digital presence as important, if not more so, than having a prime physical location. For local businesses, one of the most powerful tools at your disposal is Google’s <strong>Map Pack</strong>.</p>
@@ -211,16 +161,16 @@
 <p>If your business thrives on local traffic or serves customers in a specific area, local SEO is a no-brainer. It positions your business at the heart of your community, right where your potential customers are looking.</p>
 <p>In an era where people turn to their smartphones for everything, local SEO is the digital equivalent of being on the busiest street in town—at a fraction of the cost.</p>
 <hr>
-<p><strong>Start optimizing today, and let your business shine in local search results. After all, visibility isn’t just an advantage anymore—it’s a necessity.</strong></p>
+<p><strong>Start optimizing today, and let your business shine in local search results. After all, visibility isn&rsquo;t just an advantage anymore&hellip; it&rsquo;s a necessity.</strong></p>
 ]]></content>
         </item>
         
         <item>
             <title>First</title>
-            <link>https://noahhaile.com/articles/firstpost/</link>
+            <link>http://localhost:1313/articles/firstpost/</link>
             <pubDate>Sat, 08 Jun 2024 10:57:26 +0300</pubDate>
             
-            <guid>https://noahhaile.com/articles/firstpost/</guid>
+            <guid>http://localhost:1313/articles/firstpost/</guid>
             <description>&lt;p&gt;First article&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>First article</p>
 ]]></content>
