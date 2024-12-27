@@ -1,7 +1,7 @@
 ---
 title: "Great Artists Steal - Guide to SEO Competitor Analysis"
 Description: "Do SEO the easy way. Own your local area."
-Cover: "Whale.jpg"
+Cover: "whale.jpg"
 CoverCaption: "Happy Whale"
 tags:
     - "SEO"
