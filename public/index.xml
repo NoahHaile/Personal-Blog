@@ -1,75 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NoahHaile.com blog, projects &amp; updates</title>
-    <link>https://noahhaile.com/</link>
-    <description>Recent content on NoahHaile.com blog, projects &amp; updates</description>
+    <title>blog, projects &amp; updates</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 10:57:26 +0300</lastBuildDate>
-    <atom:link href="https://noahhaile.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Practical Guide to Operating Your Online Course</title>
-      <link>https://noahhaile.com/writings/apracticalguidetooperatingyouronlinecourse/</link>
-      <pubDate>Sun, 29 Dec 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/writings/apracticalguidetooperatingyouronlinecourse/</guid>
-      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;I&amp;rsquo;ve heard that people get more depressed after finishing a book than before. And I have to say, it’s true.&amp;rdquo;&lt;/em&gt;&#xA;~ Unknown&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve come a long way. Your course is done and you&amp;rsquo;ve opened your virtual doors for business. But whether a veteran educator or a new instructor, the most challenging part is still ahead.&lt;/p&gt;&#xA;&lt;p&gt;Teachers within traditional institutions (schools, colleges, etc.) typically have more focused responsibilities. They don&amp;rsquo;t concern themselves with student enrollments or staying ahead of the competition. But as an online course creator, its kind of on you to figure out your own success.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 08 Nov 2024 10:57:26 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://noahhaile.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 08 Nov 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/about/</guid>
-      <description>&lt;p&gt;Yet another third world web developer. The internet is a pretty awesome place and I figured I could contribute.&lt;/p&gt;&#xA;&lt;p&gt;Get in touch if you&amp;rsquo;d like to connect!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What They Don’t Teach You About Learning Online</title>
-      <link>https://noahhaile.com/writings/onlinelearning/</link>
-      <pubDate>Sat, 02 Nov 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/writings/onlinelearning/</guid>
-      <description>&lt;p&gt;The internet has given us access to an infinite library of knowledge, yet navigating it can feel more like wading through quicksand than walking into a well-organized classroom. Learning online seems straightforward&amp;hellip; find a course, watch videos, take notes but nothing is ever so simple. You often times just walk away with frustration.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;1-the-hidden-skill-of-finding-the-right-resources&#34;&gt;&lt;strong&gt;1. The Hidden Skill of Finding the Right Resources&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you&amp;rsquo;re struggling with.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Great Artists Steal - Guide to SEO Competitor Analysis</title>
-      <link>https://noahhaile.com/writings/greatartistssteal/</link>
-      <pubDate>Thu, 24 Oct 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/writings/greatartistssteal/</guid>
-      <description>&lt;p&gt;Less than &lt;strong&gt;3% of consumers&lt;/strong&gt; say they never search for local businesses online. That means nearly everyone relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn&amp;rsquo;t online, the hard truth is: you&amp;rsquo;re falling behind.&lt;/p&gt;&#xA;&lt;p&gt;The good news? It&amp;rsquo;s never too late to catch up. And the first step is simple. &lt;strong&gt;Look at what your competitors are doing.&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Another grease monkey from the dusty corners of the third world. Been hammering code into machines while the world spins faster and faster.&lt;/p&gt;&#xA;&lt;p&gt;Found this electric circus called the internet during my early teens. Figured I&amp;rsquo;d throw my wrench into the works, see what breaks, maybe sticks.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re all dogs in the same junkyard, might as well build something together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pathways</title>
-      <link>https://noahhaile.com/gallery/piece1/</link>
+      <link>http://localhost:1313/gallery/piece1/</link>
       <pubDate>Tue, 13 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece1/</guid>
+      <guid>http://localhost:1313/gallery/piece1/</guid>
       <description>&lt;p&gt;Roads are like flowers you know.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flowers</title>
-      <link>https://noahhaile.com/gallery/piece2/</link>
+      <link>http://localhost:1313/gallery/piece2/</link>
       <pubDate>Fri, 02 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece2/</guid>
+      <guid>http://localhost:1313/gallery/piece2/</guid>
       <description>&lt;p&gt;Pretty flowers are made with circles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stereo</title>
-      <link>https://noahhaile.com/gallery/piece3/</link>
+      <link>http://localhost:1313/gallery/piece3/</link>
       <pubDate>Wed, 24 Jul 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece3/</guid>
+      <guid>http://localhost:1313/gallery/piece3/</guid>
       <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Do I need Local SEO?</title>
-      <link>https://noahhaile.com/writings/doineedseo/</link>
-      <pubDate>Mon, 22 Jul 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/writings/doineedseo/</guid>
-      <description>&lt;p&gt;A strong online presence is no longer optional&amp;hellip; it’s essential. Today, more than half of all customer acquisition happens online, making your digital presence as important, if not more so, than having a prime physical location. For local businesses, one of the most powerful tools at your disposal is Google’s &lt;strong&gt;Map Pack&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The Map Pack is a set of three Google Maps-based results that appear prominently on the first page of search results when users conduct local searches. Essentially, when Google detects that someone is looking for something nearby, the Map Pack shows up front and center. Don’t believe it? Search “[business_type] near me,” and you’ll see it in action.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>https://noahhaile.com/writings/firstpost/</link>
-      <pubDate>Sat, 08 Jun 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/writings/firstpost/</guid>
-      <description>&lt;p&gt;First article&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

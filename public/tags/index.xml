@@ -1,53 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on NoahHaile.com blog, projects &amp; updates</title>
-    <link>https://noahhaile.com/tags/</link>
-    <description>Recent content in Tags on NoahHaile.com blog, projects &amp; updates</description>
+    <title>Tags on blog, projects &amp; updates</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 10:57:26 +0300</lastBuildDate>
-    <atom:link href="https://noahhaile.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Digital Growth</title>
-      <link>https://noahhaile.com/tags/digital-growth/</link>
-      <pubDate>Sun, 29 Dec 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/digital-growth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://noahhaile.com/tags/productivity/</link>
-      <pubDate>Sat, 02 Nov 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Improvement</title>
-      <link>https://noahhaile.com/tags/self-improvement/</link>
-      <pubDate>Sat, 02 Nov 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/self-improvement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SEO</title>
-      <link>https://noahhaile.com/tags/seo/</link>
-      <pubDate>Thu, 24 Oct 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/seo/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Tue, 13 Aug 2024 10:57:26 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Art</title>
-      <link>https://noahhaile.com/tags/art/</link>
+      <link>http://localhost:1313/tags/art/</link>
       <pubDate>Tue, 13 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/art/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experiment</title>
-      <link>https://noahhaile.com/tags/experiment/</link>
-      <pubDate>Sat, 08 Jun 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/tags/experiment/</guid>
+      <guid>http://localhost:1313/tags/art/</guid>
       <description></description>
     </item>
   </channel>

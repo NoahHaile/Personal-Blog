@@ -1,6 +1,6 @@
 {
     "baseurl": "https://noahhaile.com",
-    "title": "NoahHaile.com blog, projects & updates",
+    "title": "blog, projects & updates",
     "languageCode": "en-us",
     "theme": "hello-friend-ng",
     "paginate": 10,
@@ -10,18 +10,18 @@
         "dateformShort": "Jan 2",
         "dateformNum": "2006-01-02",
         "dateformNumTime": "2006-01-02 15:04",
-        "homeSubtitle": "Hosting/Curating digital art and indie-hacking projects.",
+        "homeSubtitle": "Digital Creator & Amateur Privacy Researcher",
         "disableReadOtherPosts": false,
         "enableThemeToggle": true,
         "enableSharingButtons": true,
         "enableGlobalLanguageMenu": false,
-        "description": "I mostly write about indie-hacking, generative-art, programming, the internet and life too sometimes.",
-        "keywords": "Open source, indie-hacking, generative-art, creative coding, clickedtools",
+        "description": "Digital Creator & Amateur Privacy Researcher",
+        "keywords": "Open source, Digital Privacy, web performance, indie-hacking, generative-art, creative coding, clickedtools",
         "images": [
             ""
         ],
         "Portrait": {
-            "Path": "/NicePhoto.jpeg",
+            "Path": "/garfield.jpg",
             "alt": "Self Portrait"
         },
         "logo": {
@@ -32,7 +32,6 @@
                 "url": "mailto:noah@noahhaile.com",
                 "name": "email"
             },
-            
             {
                 "url": "https://t.me/xyzfind",
                 "name": "telegram"
