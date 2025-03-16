@@ -1,9 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
   repo: NoahHaile/Personal-Blog  # Replace with your actual GitHub repo
   branch: main
   auth_scope: repo
-  base_url: http://94.130.58.212:3111
+  base_url: https://noahhaile.com  # Now points to your domain
+  auth_endpoint: /auth
 
 media_folder: "static/images/uploads"  # Where images are stored
 public_folder: "/images/uploads"
