@@ -1,178 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Articles on NoahHaile.com blog, projects &amp; updates</title>
-        <link>http://localhost:1313/articles/</link>
-        <description>Recent content in Articles on NoahHaile.com blog, projects &amp; updates</description>
+        <title>Articles on blog, projects &amp; updates</title>
+        <link>https://noahhaile.com/articles/</link>
+        <description>Recent content in Articles on blog, projects &amp; updates</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 02 Nov 2024 10:57:26 +0300</lastBuildDate>
-        <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://noahhaile.com/articles/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>What They Don’t Teach You About Learning Online</title>
-            <link>http://localhost:1313/articles/onlinelearning/</link>
-            <pubDate>Sat, 02 Nov 2024 10:57:26 +0300</pubDate>
+            <title>Test</title>
+            <link>https://noahhaile.com/articles/test/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>http://localhost:1313/articles/onlinelearning/</guid>
-            <description>&lt;p&gt;The internet has given us access to an infinite library of knowledge, yet navigating it can feel more like wading through quicksand than walking into a well-organized classroom. Learning online seems straightforward&amp;hellip; find a course, watch videos, take notes but nothing is ever so simple. You often times just walk away with frustration.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;1-the-hidden-skill-of-finding-the-right-resources&#34;&gt;&lt;strong&gt;1. The Hidden Skill of Finding the Right Resources&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you&amp;rsquo;re struggling with.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>The internet has given us access to an infinite library of knowledge, yet navigating it can feel more like wading through quicksand than walking into a well-organized classroom. Learning online seems straightforward&hellip; find a course, watch videos, take notes but nothing is ever so simple. You often times just walk away with frustration.</p>
-<hr>
-<h4 id="1-the-hidden-skill-of-finding-the-right-resources"><strong>1. The Hidden Skill of Finding the Right Resources</strong></h4>
-<p>It&rsquo;s not just about Googling the first thing that pops into your mind. That random YouTube tutorial might seem helpful at first, but twenty minutes in, you realize the creator skimmed over the exact concept you&rsquo;re struggling with.</p>
-<p><strong>What to do instead:</strong></p>
-<ul>
-<li>Look for resources with clear learning objectives.</li>
-<li>Curate a shortlist before committing. Compare. Trust your gut.</li>
-</ul>
-<hr>
-<h4 id="2-the-illusion-of-mastery"><strong>2. The Illusion of Mastery</strong></h4>
-<p>Watching a video and nodding along doesn&rsquo;t mean you&rsquo;ve learned anything. Online platforms make it easy to feel productive without actually achieving much. You&rsquo;re clicking &ldquo;Next&rdquo; on modules, checking off lessons, but&hellip; can you teach what you just learned to someone else?</p>
-<p><strong>How to combat this:</strong></p>
-<ul>
-<li>Pause often and summarize what you just learned, think about how you can apply what you just learned.</li>
-<li>Apply the &ldquo;Feynman Technique&rdquo;: explain the concept as if you&rsquo;re teaching a 5-year-old.</li>
-<li>And if you have the heart and patience for it, try out exercises before moving on, even if they aren&rsquo;t assigned.</li>
-</ul>
-<hr>
-<h4 id="3-distraction-is-the-silent-killer"><strong>3. Distraction Is the Silent Killer</strong></h4>
-<p>Don&rsquo;t even try to do something else while you are learning(half the time you dedicate to learning if you have to). Your biggest challenge isn&rsquo;t the complexity of the material, it&rsquo;s the ten other tabs calling for your attention.</p>
-<p><strong>How to protect your focus:</strong></p>
-<ul>
-<li>Study in bursts: 25 minutes of focus, 5 minutes of break (Pomodoro the work).</li>
-<li>Treat your online learning time like a sacred appointment. Put it on your calendar.</li>
-</ul>
-<hr>
-<h4 id="4-passive-learning-vs-active-doing"><strong>4. Passive Learning vs. Active Doing</strong></h4>
-<p>Online courses can lull you into passivity&hellip; watching, reading, and absorbing, but rarely doing. Real growth happens when you put what you&rsquo;ve learned into practice.</p>
-<p>For example, if you’re learning to code, build something. If you&rsquo;re studying marketing, create a campaign even if it&rsquo;s hypothetical. Knowledge solidifies when it meets action. And if you can&rsquo;t find a way to practice, maybe you should put the learning aside until you find a reason to engage with it.</p>
-<p><strong>Ask yourself:</strong> <em>What can I make with this?</em></p>
-<ul>
-<li>Create projects.</li>
-<li>Write summaries or blog posts about what you learned.</li>
-<li>Get involved in communities where people share and critique work.</li>
-</ul>
-<hr>
-<h4 id="5-motivation-is-a-myth"><strong>5. Motivation Is a Myth</strong></h4>
-<p>Sticking it through until the end is a skill. It will always feel easier to get started than to keep going in this case. Unlike traditional education, where deadlines and instructors push you forward, online learning relies on self-discipline. Some days, the spark won&rsquo;t be there, and that&rsquo;s fine.</p>
-<p><strong>How to stay consistent:</strong></p>
-<ul>
-<li>Build a routine. Learn at the same time every day.</li>
-<li>Start small: Commit to 5 minutes. Often, just starting leads to longer sessions.</li>
-<li>Celebrate small wins: finishing a chapter, solving a problem, or understanding a tricky concept.</li>
-</ul>
-<hr>
-<h4 id="6-learning-how-to-learn"><strong>6. Learning How to Learn</strong></h4>
-<p>Here&rsquo;s the kicker: the most important skill isn&rsquo;t coding, design, or writing&hellip; it&rsquo;s learning how to learn. Every course, tutorial, or video you consume teaches you a little about how <em>you</em> process information best.</p>
-<p><strong>Experiment with:</strong></p>
-<ul>
-<li>Visual vs. text-based learning.</li>
-<li>Active recall techniques like flashcards.</li>
-<li>Taking notes by hand vs. typing.</li>
-</ul>
-<p>Reflect on what works and double down.</p>
-<hr>
-<h3 id="final-thoughts"><strong>Final Thoughts</strong></h3>
-<p>Online learning is a journey without a guide, but that&rsquo;s what makes it so empowering. It&rsquo;s messy, nonlinear, and sometimes frustrating, but once you embrace the process, the possibilities are endless.</p>
-<p>The real secret? Treat every hiccup, whether it&rsquo;s a boring course, a failed attempt, or a moment of distraction as a step forward. Because when you learn how to learn online, you unlock the ultimate superpower: teaching yourself anything, anywhere.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Great Artists Steal - Guide to SEO Competitor Analysis</title>
-            <link>http://localhost:1313/articles/greatartistssteal/</link>
-            <pubDate>Thu, 24 Oct 2024 10:57:26 +0300</pubDate>
-            
-            <guid>http://localhost:1313/articles/greatartistssteal/</guid>
-            <description>&lt;p&gt;Less than &lt;strong&gt;3% of consumers&lt;/strong&gt; say they never search for local businesses online. That means nearly everyone relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn&amp;rsquo;t online, the hard truth is: you&amp;rsquo;re falling behind.&lt;/p&gt;
-&lt;p&gt;The good news? It&amp;rsquo;s never too late to catch up. And the first step is simple. &lt;strong&gt;Look at what your competitors are doing.&lt;/strong&gt;&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>Less than <strong>3% of consumers</strong> say they never search for local businesses online. That means nearly everyone relies on the internet to find services and products near them. And the trend is only growing stronger. Whether you run a restaurant, coffee shop, or hair salon, the opportunity to tap into this digital traffic is enormous. If your business isn&rsquo;t online, the hard truth is: you&rsquo;re falling behind.</p>
-<p>The good news? It&rsquo;s never too late to catch up. And the first step is simple. <strong>Look at what your competitors are doing.</strong></p>
-<hr>
-<h3 id="step-1-competitor-analysis"><strong>Step 1: Competitor Analysis</strong></h3>
-<p>Begin by identifying businesses offering similar services in your area. Start with a basic search for &ldquo;<em>[business_type] near me</em>&rdquo; on Google. Check out the top-ranking results and ask yourself:</p>
-<ul>
-<li>Do they have a website?</li>
-<li>What kind of information do they provide (hours, contact details, reviews)?</li>
-<li>Are their Google Business Profiles polished and complete?</li>
-</ul>
-<p>This simple research gives you a snapshot of where you stand relative to the competition.</p>
-<hr>
-<h3 id="step-2-gauge-the-competition"><strong>Step 2: Gauge the Competition</strong></h3>
-<p>By now, you’ll have a good sense of the local landscape. In some cases, you may find that the competition is lacking&hellip; a golden opportunity to rise to the top with a little effort. But in most cases, you&rsquo;ll discover plenty of strong players in your vicinity. That means it time for you to buckle down.</p>
-<p>Competitor analysis isn&rsquo;t just about understanding where you rank, it&rsquo;s about uncovering the strategies others use to succeed. You can:</p>
-<ul>
-<li>Identify <strong>keywords</strong> they&rsquo;re targeting.</li>
-<li>Analyze their <strong>backlinks</strong> (which websites link to them).</li>
-<li>Estimate their <strong>traffic</strong> and <strong>search volume.</strong></li>
-</ul>
-<hr>
-<h3 id="step-3-use-the-right-tools"><strong>Step 3: Use the Right Tools</strong></h3>
-<p>Fortunately, you don&rsquo;t need to spend a fortune to gather this information. While many advanced tools are pricey, there are accessible options like <strong>Ubersuggest</strong>, which offers freemium features to analyze keywords and traffic.</p>
-<p>These tools help you discover what&rsquo;s working for competitors—allowing you to skip the trial-and-error phase of SEO. More importantly, competitor analysis can reveal <strong>market gaps</strong>. Opportunities your competitors have maybe not capitalized on.</p>
-<hr>
-<h3 id="why-competitor-analysis-speeds-up-seo-success"><strong>Why Competitor Analysis Speeds Up SEO Success</strong></h3>
-<p>SEO is a long game. It involves testing strategies, tracking results, and adjusting over time. This slow feedback loop can make progress feel glacial. But by leveraging the groundwork your competitors have already laid, you can cut through the trial-and-error process and implement proven tactics faster.</p>
-<p>Competitor analysis helps you:</p>
-<ul>
-<li>Avoid wasting time on ineffective strategies.</li>
-<li>Find untapped niches or under-served audiences.</li>
-<li>Build a clear action plan based on data, not guesswork.</li>
-</ul>
-<hr>
-<h3 id="success-is-within-reach"><strong>Success Is Within Reach</strong></h3>
-<p>Most of this work can be done independently with a bit of curiosity and persistence. Once you understand the competitive landscape and refine your strategy, it’s only a matter of time before you start seeing results.</p>
-<p>With the right approach, your business can become the go-to choice in your area. And before you know it, you&rsquo;ll have more customers than you know what to do with.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Do I need Local SEO?</title>
-            <link>http://localhost:1313/articles/doineedseo/</link>
-            <pubDate>Mon, 22 Jul 2024 10:57:26 +0300</pubDate>
-            
-            <guid>http://localhost:1313/articles/doineedseo/</guid>
-            <description>&lt;p&gt;A strong online presence is no longer optional&amp;hellip; it’s essential. Today, more than half of all customer acquisition happens online, making your digital presence as important, if not more so, than having a prime physical location. For local businesses, one of the most powerful tools at your disposal is Google’s &lt;strong&gt;Map Pack&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;The Map Pack is a set of three Google Maps-based results that appear prominently on the first page of search results when users conduct local searches. Essentially, when Google detects that someone is looking for something nearby, the Map Pack shows up front and center. Don’t believe it? Search “[business_type] near me,” and you’ll see it in action.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>A strong online presence is no longer optional&hellip; it’s essential. Today, more than half of all customer acquisition happens online, making your digital presence as important, if not more so, than having a prime physical location. For local businesses, one of the most powerful tools at your disposal is Google’s <strong>Map Pack</strong>.</p>
-<p>The Map Pack is a set of three Google Maps-based results that appear prominently on the first page of search results when users conduct local searches. Essentially, when Google detects that someone is looking for something nearby, the Map Pack shows up front and center. Don’t believe it? Search “[business_type] near me,” and you’ll see it in action.</p>
-<hr>
-<h3 id="why-does-the-map-pack-matter"><strong>Why Does the Map Pack Matter?</strong></h3>
-<p>According to Google, <strong>30% of all searches are location-related</strong>, making local SEO an indispensable tool for attracting customers. Businesses that appear in the Map Pack benefit from unparalleled visibility, driving more foot traffic, inquiries, and sales.</p>
-<p>But how does Google decide who makes the cut? The ranking of local search results is influenced by three key factors:</p>
-<ol>
-<li><strong>Relevance</strong> – How closely your business matches the searcher’s query.</li>
-<li><strong>Distance</strong> – How far your business is from the searcher’s location.</li>
-<li><strong>Prominence</strong> – How well-known or authoritative Google perceives your business to be.</li>
-</ol>
-<p>While relevance and distance are relatively straightforward, <strong>prominence</strong> is where the magic happens. It reflects how credible and established your business appears online. Customer reviews, backlinks, citations, and mentions across the web all contribute to your prominence in Google’s eyes.</p>
-<hr>
-<h3 id="the-power-of-ranking-high"><strong>The Power of Ranking High</strong></h3>
-<p>Imagine two stores: one tucked away on the outskirts of town, the other in the middle of a bustling avenue. Both sell the same products and services, but the store on the main street naturally benefits from increased visibility and foot traffic.</p>
-<p>Now, think of local search rankings as your digital equivalent of that busy avenue. A high-ranking position in the Map Pack makes your business more visible, more accessible, and ultimately, more successful.</p>
-<hr>
-<h3 id="digital-visibility-more-affordable-than-you-think"><strong>Digital Visibility: More Affordable Than You Think</strong></h3>
-<p>Here’s the kicker—unlike securing a prime physical location, optimizing for local SEO is remarkably affordable. With a bit of time and effort, even small business owners can boost their visibility significantly. Factors like managing your <strong>Google Business Profile</strong>, earning positive reviews, and ensuring consistent citations across platforms can go a long way toward improving your local ranking.</p>
-<p>The benefits? Comparable to having a storefront in the busiest part of town—minus the sky-high rent.</p>
-<hr>
-<h3 id="is-local-seo-worth-it-for-your-business"><strong>Is Local SEO Worth It for Your Business?</strong></h3>
-<p>If your business thrives on local traffic or serves customers in a specific area, local SEO is a no-brainer. It positions your business at the heart of your community, right where your potential customers are looking.</p>
-<p>In an era where people turn to their smartphones for everything, local SEO is the digital equivalent of being on the busiest street in town—at a fraction of the cost.</p>
-<hr>
-<p><strong>Start optimizing today, and let your business shine in local search results. After all, visibility isn&rsquo;t just an advantage anymore&hellip; it&rsquo;s a necessity.</strong></p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>First</title>
-            <link>http://localhost:1313/articles/firstpost/</link>
-            <pubDate>Sat, 08 Jun 2024 10:57:26 +0300</pubDate>
-            
-            <guid>http://localhost:1313/articles/firstpost/</guid>
-            <description>&lt;p&gt;First article&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>First article</p>
+            <guid>https://noahhaile.com/articles/test/</guid>
+            <description>&lt;p&gt;Testing&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Testing</p>
 ]]></content>
         </item>
         
