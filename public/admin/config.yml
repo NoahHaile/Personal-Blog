@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: NoahHaile/Personal-Blog  # Replace with your actual GitHub repo
+  branch: main
+  auth_scope: repo
+  base_url: https://noahhaile.com  # Now points to your domain
+  auth_endpoint: /auth
+
+media_folder: "static/images/uploads"  # Where images are stored
+public_folder: "/images/uploads"
+
+collections:
+  - name: "writings"
+    label: "Blog Posts"
+    folder: "content/articles"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
