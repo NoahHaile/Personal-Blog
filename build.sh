@@ -6,8 +6,6 @@ git checkout -- .
 git pull
 chmod +x build.sh
 
-# Step 2 Build Hugo
-hugo
 
 # Step 3: Remove the previous contents of the target directory on the server
 echo "Removing previous site content..."
