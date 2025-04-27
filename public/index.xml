@@ -37,6 +37,13 @@
       <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Another Blog</title>
+      <link>https://noahhaile.com/articles/another-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://noahhaile.com/articles/another-blog/</guid>
+      <description>&lt;p&gt;Another Blog&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hello World</title>
       <link>https://noahhaile.com/articles/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
