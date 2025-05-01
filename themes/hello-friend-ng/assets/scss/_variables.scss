@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Light theme color */
+$light-background: #fff; // keep as pure white for contrast
+$light-background-secondary: #f0f8ff; // soft, cool light blue
+$light-background-header: #e0efff; // a vibrant, fresh blue for header
+$light-color: #1f2933; // deep charcoal for readability
+$light-color-variant: #355c7d; // rich teal for a classy touch
+$light-color-secondary: #6d7993; // warm blue-gray for accents
+$light-border-color: #b1c5d0; // light cool blue-gray for subtle elegance
+$light-table-color: #d8e8ff; // pastel blue for table backgrounds
+
+/* Accent colors for light theme */
+$light-accent: #ff6b6b; // soft coral for buttons, links, or icons
+$light-accent-secondary: #ffb84d; // warm peach for secondary accents
+
+/* Dark theme colors */
+$dark-background: #161819; // rich dark charcoal for depth
+$dark-background-secondary: #22262b; // dark slate for contrast
+$dark-background-header: #1c2025; // subtle difference for header distinction
+$dark-color: #d1d5db; // soft warm white for readability
+$dark-color-variant: #9ac2cf; // muted teal for a cool, classy touch
+$dark-color-secondary: #748a9d; // soft blue-gray for less important text
+$dark-border-color: #4b5968; // dark blue-gray border
+$dark-table-color: #37404a; // dark slate with color variation for tables
+
+/* Accent colors for dark theme */
+$dark-accent: #ff7878; // coral for lively touches
+$dark-accent-secondary: #ffd479; // golden peach for a softer accent
+
+
+
+$media-size-phone: "(max-width: 684px)";
+$media-size-tablet: "(max-width: 900px)";
+
+/* Variables for js, must be the same as these in @custom-media queries */
+:root {
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+}
+
+/* Content */
+$max-width: 860px;
