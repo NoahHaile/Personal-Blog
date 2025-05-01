@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://noahhaile.com/about/</loc>
-    <lastmod>2024-11-08T10:57:26+03:00</lastmod>
+    <loc>https://noahhaile.com/articles/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/articles/dirt-cheap-web-apps/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
   </url><url>
     <loc>https://noahhaile.com/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/tags/cdn/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/tags/hosting/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/tags/jamstack/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/tags/</loc>
+    <lastmod>2025-03-22T10:57:26+03:00</lastmod>
+  </url><url>
+    <loc>https://noahhaile.com/about/</loc>
     <lastmod>2024-11-08T10:57:26+03:00</lastmod>
   </url><url>
     <loc>https://noahhaile.com/tags/art/</loc>
@@ -17,18 +35,11 @@
     <loc>https://noahhaile.com/gallery/piece1/</loc>
     <lastmod>2024-08-13T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>https://noahhaile.com/tags/</loc>
-    <lastmod>2024-08-13T10:57:26+03:00</lastmod>
-  </url><url>
     <loc>https://noahhaile.com/gallery/piece2/</loc>
     <lastmod>2024-08-02T10:57:26+03:00</lastmod>
   </url><url>
     <loc>https://noahhaile.com/gallery/piece3/</loc>
     <lastmod>2024-07-24T10:57:26+03:00</lastmod>
-  </url><url>
-    <loc>https://noahhaile.com/articles/another-blog/</loc>
-  </url><url>
-    <loc>https://noahhaile.com/articles/</loc>
   </url><url>
     <loc>https://noahhaile.com/categories/</loc>
   </url><url>

@@ -6,8 +6,15 @@
     <description>Recent content on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2024 10:57:26 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Mar 2025 10:57:26 +0300</lastBuildDate>
     <atom:link href="https://noahhaile.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blazing Fast &amp; Dirt Cheap: Nginx, Cloudflare, and a VPS</title>
+      <link>https://noahhaile.com/articles/dirt-cheap-web-apps/</link>
+      <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/dirt-cheap-web-apps/</guid>
+      <description>&lt;p&gt;Building modern web applications with frameworks like React, Vue, or Angular is powerful, but hosting them can sometimes feel complex or costly. What if you could get global CDN speeds for your frontend and efficiently host your backend API, all for just a few bucks a month?&lt;/p&gt;&#xA;&lt;p&gt;You absolutely can. By combining a lean VPS, the versatile Nginx web server, and Cloudflare&amp;rsquo;s incredible free tier, you can create a setup that embraces the best parts of the Jamstack architecture: serving your static frontend globally at light speed while efficiently handling dynamic API requests from a low-cost server.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>https://noahhaile.com/about/</link>
@@ -35,13 +42,6 @@
       <pubDate>Wed, 24 Jul 2024 10:57:26 +0300</pubDate>
       <guid>https://noahhaile.com/gallery/piece3/</guid>
       <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Another Blog</title>
-      <link>https://noahhaile.com/articles/another-blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://noahhaile.com/articles/another-blog/</guid>
-      <description>&lt;p&gt;Another Blog&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>

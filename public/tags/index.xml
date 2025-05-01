@@ -6,8 +6,29 @@
     <description>Recent content in Tags on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Aug 2024 10:57:26 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 22 Mar 2025 10:57:26 +0300</lastBuildDate>
     <atom:link href="https://noahhaile.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDN</title>
+      <link>https://noahhaile.com/tags/cdn/</link>
+      <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/cdn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hosting</title>
+      <link>https://noahhaile.com/tags/hosting/</link>
+      <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jamstack</title>
+      <link>https://noahhaile.com/tags/jamstack/</link>
+      <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/jamstack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Art</title>
       <link>https://noahhaile.com/tags/art/</link>
