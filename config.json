@@ -45,11 +45,6 @@
     "menu": {
         "main": [
             {
-                "Identifier": "gallery",
-                "Name": "Gallery",
-                "URL": "/gallery/"
-            },
-            {
                 "Identifier": "about",
                 "Name": "About",
                 "URL": "/about/"
