@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art on blog, projects &amp; updates</title>
-    <link>https://noahhaile.com/tags/art/</link>
+    <link>http://localhost:1313/tags/art/</link>
     <description>Recent content in Art on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Aug 2024 10:57:26 +0300</lastBuildDate>
-    <atom:link href="https://noahhaile.com/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pathways</title>
-      <link>https://noahhaile.com/gallery/piece1/</link>
+      <link>http://localhost:1313/gallery/piece1/</link>
       <pubDate>Tue, 13 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece1/</guid>
+      <guid>http://localhost:1313/gallery/piece1/</guid>
       <description>&lt;p&gt;Roads are like flowers you know.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flowers</title>
-      <link>https://noahhaile.com/gallery/piece2/</link>
+      <link>http://localhost:1313/gallery/piece2/</link>
       <pubDate>Fri, 02 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece2/</guid>
+      <guid>http://localhost:1313/gallery/piece2/</guid>
       <description>&lt;p&gt;Pretty flowers are made with circles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stereo</title>
-      <link>https://noahhaile.com/gallery/piece3/</link>
+      <link>http://localhost:1313/gallery/piece3/</link>
       <pubDate>Wed, 24 Jul 2024 10:57:26 +0300</pubDate>
-      <guid>https://noahhaile.com/gallery/piece3/</guid>
+      <guid>http://localhost:1313/gallery/piece3/</guid>
       <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
     </item>
   </channel>

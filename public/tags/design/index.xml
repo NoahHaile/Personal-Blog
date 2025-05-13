@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on blog, projects &amp; updates</title>
+    <link>http://localhost:1313/tags/design/</link>
+    <description>Recent content in Design on blog, projects &amp; updates</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 10:57:26 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Great Software Engineers Build for a Lifetime</title>
+      <link>http://localhost:1313/articles/build-for-a-lifetime/</link>
+      <pubDate>Mon, 12 May 2025 10:57:26 +0300</pubDate>
+      <guid>http://localhost:1313/articles/build-for-a-lifetime/</guid>
+      <description>&lt;p&gt;Lately, something quiet but significant has been shifting in how I think about writing software. It’s a growing realization that feels less like a sudden insight and more like a path I&amp;rsquo;m still walking: that maybe, just maybe, the goal isn&amp;rsquo;t just to solve the problem in front of you, but to build something that could last.&lt;/p&gt;&#xA;&lt;p&gt;When I first started coding, everything felt temporary. Projects were quick sprints – homework due tomorrow, a script to get rid of an annoying manual task, a side idea I knew I&amp;rsquo;d probably drop next week. My focus was simple: make it run. Structure, naming things well, comments – that all felt like nice-to-haves I didn&amp;rsquo;t have time for. Get it working, move on. And for a while, that approach worked well enough.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

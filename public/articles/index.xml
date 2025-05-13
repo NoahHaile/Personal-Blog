@@ -1,19 +1,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Articles on blog, projects &amp; updates</title>
-        <link>https://noahhaile.com/articles/</link>
+        <link>http://localhost:1313/articles/</link>
         <description>Recent content in Articles on blog, projects &amp; updates</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 22 Mar 2025 10:57:26 +0300</lastBuildDate>
-        <atom:link href="https://noahhaile.com/articles/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 12 May 2025 10:57:26 +0300</lastBuildDate>
+        <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Great Software Engineers Build for a Lifetime</title>
+            <link>http://localhost:1313/articles/build-for-a-lifetime/</link>
+            <pubDate>Mon, 12 May 2025 10:57:26 +0300</pubDate>
+            
+            <guid>http://localhost:1313/articles/build-for-a-lifetime/</guid>
+            <description>&lt;p&gt;Lately, something quiet but significant has been shifting in how I think about writing software. It’s a growing realization that feels less like a sudden insight and more like a path I&amp;rsquo;m still walking: that maybe, just maybe, the goal isn&amp;rsquo;t just to solve the problem in front of you, but to build something that could last.&lt;/p&gt;
+&lt;p&gt;When I first started coding, everything felt temporary. Projects were quick sprints – homework due tomorrow, a script to get rid of an annoying manual task, a side idea I knew I&amp;rsquo;d probably drop next week. My focus was simple: make it run. Structure, naming things well, comments – that all felt like nice-to-haves I didn&amp;rsquo;t have time for. Get it working, move on. And for a while, that approach worked well enough.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Lately, something quiet but significant has been shifting in how I think about writing software. It’s a growing realization that feels less like a sudden insight and more like a path I&rsquo;m still walking: that maybe, just maybe, the goal isn&rsquo;t just to solve the problem in front of you, but to build something that could last.</p>
+<p>When I first started coding, everything felt temporary. Projects were quick sprints – homework due tomorrow, a script to get rid of an annoying manual task, a side idea I knew I&rsquo;d probably drop next week. My focus was simple: make it run. Structure, naming things well, comments – that all felt like nice-to-haves I didn&rsquo;t have time for. Get it working, move on. And for a while, that approach worked well enough.</p>
+<p>But gradually, almost without noticing, the friction started building. Going back to old code became a chore. Why was I writing this same setup again? Why did authentication always feel like hacking something together from scratch every time? Why were interfaces left looking like rough placeholders I’d promised myself I’d fix later but never did? It wasn&rsquo;t just frustration with the code itself; it was a growing sense of regret about the choices I didn&rsquo;t make – the reusable bits I didn’t build, the foundations I skipped that now slowed me down.</p>
+<p>I started to get tired of feeling like I was starting from zero when it felt like I should have a base to build from. This constant rebuilding wasn&rsquo;t just inefficient; it felt like I was limiting my own ability to work on bigger, more interesting problems. You can only build so tall if you&rsquo;re always rebuilding the ground floor.</p>
+<p>That’s when the idea began to form: maybe good code isn&rsquo;t just about the speed of getting something done right now. Maybe it’s more about getting it done in a way that respects your future self, anyone else who might touch this code, or even just the possibility that this work might be useful again. It&rsquo;s about starting to build with the quiet assumption that this might live on.</p>
+<p>This shift, subtle as it is, changes how you look at things.</p>
+<p>Projects start to feel less like one-off experiments and more like potential building blocks. You begin to see functions, modules, even READMEs as assets that could be valuable again. Naming things clearly, writing code that explains its intent, thinking about structure that can accommodate growth – these things start to feel less like rules and more like practical steps to make future life easier. Version control isn&rsquo;t just a team requirement; it becomes a personal tool for reliability and traceability.</p>
+<p>Things like backups, clear commit messages, maybe even a quick note on a design idea – they start to feel less like &ldquo;overhead&rdquo; and more like basic responsibility, a way of caring for the work and advancing as an engineer. And this care, this commitment to building well, subtly but powerfully reinforces how much value your work truly has – both to you and to anyone who might encounter it.</p>
+<p>And you start to notice that the more you care about building sustainably, the more the work itself seems to gain value, sometimes in unexpected ways. Code you wrote months ago gets referenced. A tool you built for one thing finds a use elsewhere. That small utility function you cleaned up two years ago shows up in another project, and it just&hellip; works.</p>
+<p>It&rsquo;s in these moments that building like a professional starts to click into place.</p>
+<p>You&rsquo;re not just writing disposable scripts; you&rsquo;re trying to build systems that can be expanded. You start thinking a little more about architecture, even in small ways, rather than just the quickest hack. And even when you think you&rsquo;re writing something throwaway, there&rsquo;s this lingering sense that it&rsquo;s worth making it reasonably clear, just in case.</p>
+<p>Because, as I&rsquo;m learning, &ldquo;throwaway&rdquo; code has a funny habit of sticking around.</p>
+<p>And maybe the most profound part of this evolving perspective is starting to look further out. Not just to the next deadline or feature, but with the idea that this code could become a foundation – for something you haven&rsquo;t thought of yet, for a team you might join, or just for making your own future work smoother. This ability to build upon existing, stable systems you&rsquo;ve created (or contributed to) isn&rsquo;t just a best practice; it feels increasingly like the only way to genuinely progress as an engineer and tackle problems of greater complexity and impact. You simply can&rsquo;t get very far if you&rsquo;re stuck reinventing the wheel every single time.</p>
+<p>Every function you make reusable, every pattern you adopt, every comment that clarifies intent – it feels like building your own personal toolkit, your own infrastructure. It&rsquo;s less about just putting out fires and more about shaping a body of work that reflects a growing care for the craft.</p>
+<p>That, I think, is where the real growth happens. It&rsquo;s less about building fast, and more about learning to build foundations for the future.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Blazing Fast &amp; Dirt Cheap: Nginx, Cloudflare, and a VPS</title>
-            <link>https://noahhaile.com/articles/dirt-cheap-web-apps/</link>
+            <link>http://localhost:1313/articles/dirt-cheap-web-apps/</link>
             <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
             
-            <guid>https://noahhaile.com/articles/dirt-cheap-web-apps/</guid>
+            <guid>http://localhost:1313/articles/dirt-cheap-web-apps/</guid>
             <description>&lt;p&gt;Building modern web applications with frameworks like React, Vue, or Angular is powerful, but hosting them can sometimes feel complex or costly. What if you could get global CDN speeds for your frontend and efficiently host your backend API, all for just a few bucks a month?&lt;/p&gt;
 &lt;p&gt;You absolutely can. By combining a lean VPS, the versatile Nginx web server, and Cloudflare&amp;rsquo;s incredible free tier, you can create a setup that embraces the best parts of the Jamstack architecture: serving your static frontend globally at light speed while efficiently handling dynamic API requests from a low-cost server.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>Building modern web applications with frameworks like React, Vue, or Angular is powerful, but hosting them can sometimes feel complex or costly. What if you could get global CDN speeds for your frontend and efficiently host your backend API, all for just a few bucks a month?</p>
@@ -153,10 +179,10 @@
         
         <item>
             <title>Hello World</title>
-            <link>https://noahhaile.com/articles/hello-world/</link>
+            <link>http://localhost:1313/articles/hello-world/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>https://noahhaile.com/articles/hello-world/</guid>
+            <guid>http://localhost:1313/articles/hello-world/</guid>
             <description>&lt;p&gt;Test Article&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>Test Article</p>
 ]]></content>
