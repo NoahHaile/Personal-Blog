@@ -2,59 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articles/</loc>
+    <loc>https://noahhaile.com/articles/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://noahhaile.com/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/design/</loc>
+    <loc>https://noahhaile.com/tags/design/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://noahhaile.com/tags/git/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/build-for-a-lifetime/</loc>
+    <loc>https://noahhaile.com/articles/build-for-a-lifetime/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software-engineering/</loc>
+    <loc>https://noahhaile.com/tags/software-engineering/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://noahhaile.com/tags/</loc>
     <lastmod>2025-05-12T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/dirt-cheap-web-apps/</loc>
+    <loc>https://noahhaile.com/articles/dirt-cheap-web-apps/</loc>
     <lastmod>2025-03-22T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cdn/</loc>
+    <loc>https://noahhaile.com/tags/cdn/</loc>
     <lastmod>2025-03-22T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hosting/</loc>
+    <loc>https://noahhaile.com/tags/hosting/</loc>
     <lastmod>2025-03-22T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jamstack/</loc>
+    <loc>https://noahhaile.com/tags/jamstack/</loc>
     <lastmod>2025-03-22T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://noahhaile.com/about/</loc>
     <lastmod>2024-11-08T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/art/</loc>
+    <loc>https://noahhaile.com/tags/art/</loc>
     <lastmod>2024-08-13T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>https://noahhaile.com/gallery/</loc>
     <lastmod>2024-08-13T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/piece1/</loc>
+    <loc>https://noahhaile.com/gallery/piece1/</loc>
     <lastmod>2024-08-13T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/piece2/</loc>
+    <loc>https://noahhaile.com/gallery/piece2/</loc>
     <lastmod>2024-08-02T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/piece3/</loc>
+    <loc>https://noahhaile.com/gallery/piece3/</loc>
     <lastmod>2024-07-24T10:57:26+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://noahhaile.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/articles/hello-world/</loc>
+    <loc>https://noahhaile.com/articles/hello-world/</loc>
   </url>
 </urlset>

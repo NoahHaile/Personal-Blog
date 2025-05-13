@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog, projects &amp; updates</title>
-    <link>http://localhost:1313/</link>
+    <link>https://noahhaile.com/</link>
     <description>Recent content on blog, projects &amp; updates</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 May 2025 10:57:26 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://noahhaile.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Great Software Engineers Build for a Lifetime</title>
-      <link>http://localhost:1313/articles/build-for-a-lifetime/</link>
+      <link>https://noahhaile.com/articles/build-for-a-lifetime/</link>
       <pubDate>Mon, 12 May 2025 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/articles/build-for-a-lifetime/</guid>
+      <guid>https://noahhaile.com/articles/build-for-a-lifetime/</guid>
       <description>&lt;p&gt;Lately, something quiet but significant has been shifting in how I think about writing software. It’s a growing realization that feels less like a sudden insight and more like a path I&amp;rsquo;m still walking: that maybe, just maybe, the goal isn&amp;rsquo;t just to solve the problem in front of you, but to build something that could last.&lt;/p&gt;&#xA;&lt;p&gt;When I first started coding, everything felt temporary. Projects were quick sprints – homework due tomorrow, a script to get rid of an annoying manual task, a side idea I knew I&amp;rsquo;d probably drop next week. My focus was simple: make it run. Structure, naming things well, comments – that all felt like nice-to-haves I didn&amp;rsquo;t have time for. Get it working, move on. And for a while, that approach worked well enough.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blazing Fast &amp; Dirt Cheap: Nginx, Cloudflare, and a VPS</title>
-      <link>http://localhost:1313/articles/dirt-cheap-web-apps/</link>
+      <link>https://noahhaile.com/articles/dirt-cheap-web-apps/</link>
       <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/articles/dirt-cheap-web-apps/</guid>
+      <guid>https://noahhaile.com/articles/dirt-cheap-web-apps/</guid>
       <description>&lt;p&gt;Building modern web applications with frameworks like React, Vue, or Angular is powerful, but hosting them can sometimes feel complex or costly. What if you could get global CDN speeds for your frontend and efficiently host your backend API, all for just a few bucks a month?&lt;/p&gt;&#xA;&lt;p&gt;You absolutely can. By combining a lean VPS, the versatile Nginx web server, and Cloudflare&amp;rsquo;s incredible free tier, you can create a setup that embraces the best parts of the Jamstack architecture: serving your static frontend globally at light speed while efficiently handling dynamic API requests from a low-cost server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://noahhaile.com/about/</link>
       <pubDate>Fri, 08 Nov 2024 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://noahhaile.com/about/</guid>
       <description>&lt;p&gt;Another grease monkey from the dusty corners of the third world. Been hammering code into machines while the world spins faster and faster.&lt;/p&gt;&#xA;&lt;p&gt;Found this electric circus called the internet during my early teens. Figured I&amp;rsquo;d throw my wrench into the works, see what breaks, maybe sticks.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re all dogs in the same junkyard, might as well build something together.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pathways</title>
-      <link>http://localhost:1313/gallery/piece1/</link>
+      <link>https://noahhaile.com/gallery/piece1/</link>
       <pubDate>Tue, 13 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/gallery/piece1/</guid>
+      <guid>https://noahhaile.com/gallery/piece1/</guid>
       <description>&lt;p&gt;Roads are like flowers you know.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flowers</title>
-      <link>http://localhost:1313/gallery/piece2/</link>
+      <link>https://noahhaile.com/gallery/piece2/</link>
       <pubDate>Fri, 02 Aug 2024 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/gallery/piece2/</guid>
+      <guid>https://noahhaile.com/gallery/piece2/</guid>
       <description>&lt;p&gt;Pretty flowers are made with circles.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stereo</title>
-      <link>http://localhost:1313/gallery/piece3/</link>
+      <link>https://noahhaile.com/gallery/piece3/</link>
       <pubDate>Wed, 24 Jul 2024 10:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/gallery/piece3/</guid>
+      <guid>https://noahhaile.com/gallery/piece3/</guid>
       <description>&lt;p&gt;Why did we stop using the word bop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/articles/hello-world/</link>
+      <link>https://noahhaile.com/articles/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/hello-world/</guid>
+      <guid>https://noahhaile.com/articles/hello-world/</guid>
       <description>&lt;p&gt;Test Article&lt;/p&gt;</description>
     </item>
   </channel>
