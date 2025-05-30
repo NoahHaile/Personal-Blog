@@ -1,12 +1,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Articles on blog, projects &amp; updates</title>
+        <title>Articles on Noah Hailegiorgis</title>
         <link>https://noahhaile.com/articles/</link>
-        <description>Recent content in Articles on blog, projects &amp; updates</description>
+        <description>Recent content in Articles on Noah Hailegiorgis</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 12 May 2025 10:57:26 +0300</lastBuildDate>
+        <lastBuildDate>Fri, 30 May 2025 10:57:26 +0300</lastBuildDate>
         <atom:link href="https://noahhaile.com/articles/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My New Favorite Architecture: Using n8n as a Mid Server</title>
+            <link>https://noahhaile.com/articles/my-favorite-architecture/</link>
+            <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+            
+            <guid>https://noahhaile.com/articles/my-favorite-architecture/</guid>
+            <description>&lt;p&gt;For a while, my pride told me visual builders weren’t for &lt;em&gt;professional&lt;/em&gt; engineers. I never said it out loud, but I thought it: drag-and-drop tools were suitable for prototypes, business folks, or anyone trying to avoid writing &lt;em&gt;conventional&lt;/em&gt; code. They weren’t for people who knew how to build things &lt;strong&gt;the established way.&lt;/strong&gt; Then I started using n8n to build AI agents, and it didn’t take long before my conviction began to waver. Because pretty quickly, I realized that instead of a limitation, this was a superpower.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>For a while, my pride told me visual builders weren’t for <em>professional</em> engineers. I never said it out loud, but I thought it: drag-and-drop tools were suitable for prototypes, business folks, or anyone trying to avoid writing <em>conventional</em> code. They weren’t for people who knew how to build things <strong>the established way.</strong> Then I started using n8n to build AI agents, and it didn’t take long before my conviction began to waver. Because pretty quickly, I realized that instead of a limitation, this was a superpower.</p>
+<h2 id="the-architecture">The Architecture</h2>
+<p>Now, n8n is a core part of how I build. Not as a replacement for my backend, but as a mid server, a logic layer that handles:</p>
+<ul>
+<li>Third-party integrations</li>
+<li>Cron jobs</li>
+<li>Automation flows</li>
+<li>AI agents</li>
+<li>Webhook juggling</li>
+</ul>
+<p>All things that don’t need to live in my backend, but still need to be coordinated, extended, and monitored. n8n and my backend communicate seamlessly over webhooks. n8n handles the flow, the timing, the retries, the service coordination. My backend owns state, authentication, data persistence, which represent the critical boundaries. The result is a clear split: logic orchestration in one place, core systems in another. It&rsquo;s neither a monolith, microservices, nor serverless. It’s a hybrid approach that works.</p>
+<h2 id="code-reuse-without-the-overhead">Code Reuse Without the Overhead</h2>
+<p>One thing I noticed fast: stuff just doesn’t get duplicated as much. Workflows become natural units of reuse. One webhook handler can become three different triggers. An agent prompt with branching logic can be cloned and remixed. A cron-based report doesn’t have to live in a buried script anymore; it’s visible, tweakable, and versioned. And I don’t have to make the tradeoff between speed and clarity. A change that would normally mean touching four files, two services, and a deployment&hellip; just becomes a new node and a test run.</p>
+<h2 id="the-ai-layer-that-actually-scales">The AI Layer That Actually Scales</h2>
+<p>Once I started layering in AI-native behavior, this setup really hit its stride. AI integrations are inherently async, API-intensive, and often experimental. You’re juggling prompts, chaining models, enriching outputs, and coordinating side effects. Trying to bake all that into a traditional backend is chaos.</p>
+<p>With n8n, I construct agent pipelines with a visual and intuitive workflow. One part fetches history, one part formats the context, one calls a model, another logs the result, another decides what to do next. If a branch fails? I can retry it, isolate it, rewire it. It makes experimentation genuinely feasible. I can treat AI agents as dynamic entities, not static endpoints.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Great Software Engineers Build for a Lifetime</title>

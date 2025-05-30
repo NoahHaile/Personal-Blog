@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on blog, projects &amp; updates</title>
+    <title>Tags on Noah Hailegiorgis</title>
     <link>https://noahhaile.com/tags/</link>
-    <description>Recent content in Tags on blog, projects &amp; updates</description>
+    <description>Recent content in Tags on Noah Hailegiorgis</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 10:57:26 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 May 2025 10:57:26 +0300</lastBuildDate>
     <atom:link href="https://noahhaile.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://noahhaile.com/tags/automation/</link>
+      <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>N8n</title>
+      <link>https://noahhaile.com/tags/n8n/</link>
+      <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/n8n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>https://noahhaile.com/tags/software-architecture/</link>
+      <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/tags/software-architecture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Design</title>
       <link>https://noahhaile.com/tags/design/</link>

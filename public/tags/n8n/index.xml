@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N8n on Noah Hailegiorgis</title>
+    <link>https://noahhaile.com/tags/n8n/</link>
+    <description>Recent content in N8n on Noah Hailegiorgis</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 May 2025 10:57:26 +0300</lastBuildDate>
+    <atom:link href="https://noahhaile.com/tags/n8n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My New Favorite Architecture: Using n8n as a Mid Server</title>
+      <link>https://noahhaile.com/articles/my-favorite-architecture/</link>
+      <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/my-favorite-architecture/</guid>
+      <description>&lt;p&gt;For a while, my pride told me visual builders weren’t for &lt;em&gt;professional&lt;/em&gt; engineers. I never said it out loud, but I thought it: drag-and-drop tools were suitable for prototypes, business folks, or anyone trying to avoid writing &lt;em&gt;conventional&lt;/em&gt; code. They weren’t for people who knew how to build things &lt;strong&gt;the established way.&lt;/strong&gt; Then I started using n8n to build AI agents, and it didn’t take long before my conviction began to waver. Because pretty quickly, I realized that instead of a limitation, this was a superpower.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
