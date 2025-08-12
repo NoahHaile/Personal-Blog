@@ -6,8 +6,36 @@
     <description>Recent content on Noah Hailegiorgis</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 May 2025 10:57:26 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 10:57:26 +0300</lastBuildDate>
     <atom:link href="https://noahhaile.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Study #4: Cold Outbound Automation (Clay → Smartlead via n8n)</title>
+      <link>https://noahhaile.com/articles/automating-outreach/</link>
+      <pubDate>Sat, 09 Aug 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/automating-outreach/</guid>
+      <description>&lt;h2 id=&#34;client-snapshot&#34;&gt;Client Snapshot&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/boy.gif&#34; alt=&#34;Introductions GIF&#34;&gt;&#xA;&lt;strong&gt;Industry:&lt;/strong&gt; Visitor attribution SaaS (identifies up to 70% of U.S. website visitors)&lt;br&gt;&#xA;&lt;strong&gt;Key Contact:&lt;/strong&gt; Stephen, Founder&lt;br&gt;&#xA;&lt;strong&gt;Targets:&lt;/strong&gt; Marketing and revenue leaders (Demand Gen, Growth, RevOps, CMOs)&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-results&#34;&gt;Key Results&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;End‑to‑end Clay → Smartlead pipeline automated with self‑hosted n8n&lt;/li&gt;&#xA;&lt;li&gt;AI‑driven persona templates personalized by industry, company size, title, and role&lt;/li&gt;&#xA;&lt;li&gt;Up to 1,000 emails/day with safe sending and governance&lt;/li&gt;&#xA;&lt;li&gt;Reply rate lifted to 2%&lt;/li&gt;&#xA;&lt;li&gt;Supabase used for clean data storage, suppressions, and logs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/running.gif&#34; alt=&#34;Running GIF&#34;&gt;&#xA;The team could enrich prospects in Clay and had Smartlead ready to send, but they lacked:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Case Study #3: Email Triage, Drafting &amp; Follow‑Ups with n8n &#43; Outlook</title>
+      <link>https://noahhaile.com/articles/automating-emails/</link>
+      <pubDate>Thu, 07 Aug 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/automating-emails/</guid>
+      <description>&lt;h2 id=&#34;client-snapshot&#34;&gt;Client Snapshot&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/boy.gif&#34; alt=&#34;Introductions GIF&#34;&gt;&#xA;&lt;strong&gt;Industry:&lt;/strong&gt; Website Design Agency for local Australian businesses&lt;br&gt;&#xA;&lt;strong&gt;Key Contact:&lt;/strong&gt; Michael, Agency Owner&lt;br&gt;&#xA;&lt;strong&gt;Customers:&lt;/strong&gt; Brick‑and‑mortar SMBs across Australia (trades, hospitality, clinics, retailers)&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-results-summary&#34;&gt;Key Results Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prototype in 1 day; live in 5 days&lt;/li&gt;&#xA;&lt;li&gt;20–30 emails/day auto‑handled (plus scheduled follow‑ups)&lt;/li&gt;&#xA;&lt;li&gt;Founder time cut from 3.5 hours/day to ~0.5 hours/day&lt;/li&gt;&#xA;&lt;li&gt;Lead replies in seconds; invoice nudges go out on time, every time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/worry-simpsons.gif&#34; alt=&#34;Challenged GIF&#34;&gt;&#xA;Michael ran everything from a single Outlook inbox—no automations, no CRM. He needed to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Case Study #2: ElevenLabs Voice Agent &#43; n8n Orchestration</title>
+      <link>https://noahhaile.com/articles/automating-frontdesk/</link>
+      <pubDate>Mon, 04 Aug 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/automating-frontdesk/</guid>
+      <description>&lt;h2 id=&#34;client-snapshot&#34;&gt;Client Snapshot&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/boy.gif&#34; alt=&#34;Introductions GIF&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; IT Training &amp;amp; Placement&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Key Contact:&lt;/strong&gt; Anna, Project Manager&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customers:&lt;/strong&gt; Recent graduates (often with complex visa statuses) and IT professionals seeking training and placement support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;key-results-summary&#34;&gt;Key results summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;24/7 automated booking and tier‑1 support&lt;/li&gt;&#xA;&lt;li&gt;Real‑time CRM logging with transcripts and outcome tags; native calendar/booking integration&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;$0.08&lt;/code&gt; per call (typical [60–90] sec; usage‑based)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/disappear.gif&#34; alt=&#34;Disappearing GIF&#34;&gt;&#xA;Anna and her team wanted a seamless, modern solution for handling front desk duties without relying on costly human personnel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Case Study #1: Custom n8n Data Enrichment &amp; Automation</title>
+      <link>https://noahhaile.com/articles/automating-b2b-enrichment/</link>
+      <pubDate>Sat, 02 Aug 2025 10:57:26 +0300</pubDate>
+      <guid>https://noahhaile.com/articles/automating-b2b-enrichment/</guid>
+      <description>&lt;h2 id=&#34;client-snapshot&#34;&gt;Client Snapshot&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/boy.gif&#34; alt=&#34;Introductions GIF&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Multi-vertical B2B sales&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Product:&lt;/strong&gt; Advanced data analytics solutions for enterprise accounts ($5–10M+ revenue)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Buyer:&lt;/strong&gt; Head of Sales + outbound SDRs/BDRs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;key-results-summary&#34;&gt;Key results summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10% sales lift&lt;/li&gt;&#xA;&lt;li&gt;&amp;lt;3% false positives&lt;/li&gt;&#xA;&lt;li&gt;500–1,000 leads/day&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;$0.06&lt;/code&gt; per enriched lead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://noahhaile.com/worry-simpsons.gif&#34; alt=&#34;Challenged GIF&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Selling into high-stakes enterprise accounts demands more than surface-level data. Off‑the‑shelf tools (&lt;code&gt;Clay&lt;/code&gt;/&lt;code&gt;Apollo&lt;/code&gt;) missed critical context like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hiring signals (open roles)&lt;/li&gt;&#xA;&lt;li&gt;Executive/media/webinar appearances&lt;/li&gt;&#xA;&lt;li&gt;Org-level figures (e.g., analyst headcount)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Without this context, outreach felt generic, research was slow, and strong prospects slipped through.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My New Favorite Architecture: Using n8n as a Mid Server</title>
       <link>https://noahhaile.com/articles/my-favorite-architecture/</link>

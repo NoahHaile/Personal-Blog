@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Client Snapshot Industry: Multi-vertical B2B sales Product: Advanced data analytics solutions for enterprise accounts ($5–10M&#43; revenue) Buyer: Head of Sales &#43; outbound SDRs/BDRs. Key results summary 10% sales lift &lt;3% false positives 500–1,000 leads/day $0.06 per enriched lead The Challenge Selling into high-stakes enterprise accounts demands more than surface-level data. Off‑the‑shelf tools (Clay/Apollo) missed critical context like:
+Hiring signals (open roles) Executive/media/webinar appearances Org-level figures (e.g., analyst headcount) Without this context, outreach felt generic, research was slow, and strong prospects slipped through.
+" />
+<meta name="keywords" content="Open source, Digital Privacy, web performance, indie-hacking, generative-art, creative coding, clickedtools, Automation, Case Study, n8n, Revenue Operations" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/articles/supercharging-b2b-sales/" />
+
+
+    <title>
+        
+            Case Study #1: Custom n8n Data Enrichment &amp; Automation :: Noah Hailegiorgis 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.bc93cd0a4eff2de97b93837e8b8a406030b1d9e280f1f365845e0bd56cab0e7c.css" integrity="sha256-vJPNCk7/Lel7k4N&#43;i4pAYDCx2eKA8fNlhF4L1WyrDnw=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Case Study #1: Custom n8n Data Enrichment & Automation">
+  <meta itemprop="description" content="Client Snapshot Industry: Multi-vertical B2B sales Product: Advanced data analytics solutions for enterprise accounts ($5–10M&#43; revenue) Buyer: Head of Sales &#43; outbound SDRs/BDRs. Key results summary 10% sales lift &lt;3% false positives 500–1,000 leads/day $0.06 per enriched lead The Challenge Selling into high-stakes enterprise accounts demands more than surface-level data. Off‑the‑shelf tools (Clay/Apollo) missed critical context like:
+Hiring signals (open roles) Executive/media/webinar appearances Org-level figures (e.g., analyst headcount) Without this context, outreach felt generic, research was slow, and strong prospects slipped through.">
+  <meta itemprop="datePublished" content="2025-08-02T10:57:26+03:00">
+  <meta itemprop="dateModified" content="2025-08-02T10:57:26+03:00">
+  <meta itemprop="wordCount" content="638">
+  <meta itemprop="image" content="http://localhost:1313/">
+  <meta itemprop="keywords" content="Automation,Case Study,N8n,Revenue Operations">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/">
+  <meta name="twitter:title" content="Case Study #1: Custom n8n Data Enrichment & Automation">
+  <meta name="twitter:description" content="Client Snapshot Industry: Multi-vertical B2B sales Product: Advanced data analytics solutions for enterprise accounts ($5–10M&#43; revenue) Buyer: Head of Sales &#43; outbound SDRs/BDRs. Key results summary 10% sales lift &lt;3% false positives 500–1,000 leads/day $0.06 per enriched lead The Challenge Selling into high-stakes enterprise accounts demands more than surface-level data. Off‑the‑shelf tools (Clay/Apollo) missed critical context like:
+Hiring signals (open roles) Executive/media/webinar appearances Org-level figures (e.g., analyst headcount) Without this context, outreach felt generic, research was slow, and strong prospects slipped through.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2025-08-02 10:57:26 &#43;0300 EAT" />
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        (function (w, d, e, u, f, l, n) {
+            w[f] = w[f] || function () {
+                (w[f].q = w[f].q || [])
+                .push(arguments);
+            }, l = d.createElement(e), l.async = 1, l.src = u,
+            n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+        })
+            (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+        ml('account', '1235699');
+    </script>
+    
+</head>
+
+
+
+<body>
+    
+
+    <div class="container">
+        <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                ሰላም, ዓለም</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/">About</a></li><li><a href="/articles/">Writings</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+        <div class="content">
+            
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        3 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="http://localhost:1313/articles/supercharging-b2b-sales/">Case Study #1: Custom n8n Data Enrichment &amp; Automation</a>
+      </h1>
+
+      
+
+      
+        <figure class="post-cover">
+          <img src="http://localhost:1313/fern.jpg" alt="Case Study #1: Custom n8n Data Enrichment &amp; Automation" class="center" />
+          
+          
+            <figcaption class="center">Growth starts with the right signals.</figcaption>
+          
+        </figure>
+      
+
+      
+
+      <div class="post-content">
+        <h2 id="client-snapshot">Client Snapshot</h2>
+<p><img src="/boy.gif" alt="Introductions GIF"></p>
+<ul>
+<li><strong>Industry:</strong> Multi-vertical B2B sales</li>
+<li><strong>Product:</strong> Advanced data analytics solutions for enterprise accounts ($5–10M+ revenue)</li>
+<li><strong>Buyer:</strong> Head of Sales + outbound SDRs/BDRs.</li>
+</ul>
+<h3 id="key-results-summary">Key results summary</h3>
+<ul>
+<li>10% sales lift</li>
+<li>&lt;3% false positives</li>
+<li>500–1,000 leads/day</li>
+<li><code>$0.06</code> per enriched lead</li>
+</ul>
+<h2 id="the-challenge">The Challenge</h2>
+<p><img src="/worry-simpsons.gif" alt="Challenged GIF"></p>
+<p>Selling into high-stakes enterprise accounts demands more than surface-level data. Off‑the‑shelf tools (<code>Clay</code>/<code>Apollo</code>) missed critical context like:</p>
+<ul>
+<li>Hiring signals (open roles)</li>
+<li>Executive/media/webinar appearances</li>
+<li>Org-level figures (e.g., analyst headcount)</li>
+</ul>
+<p>Without this context, outreach felt generic, research was slow, and strong prospects slipped through.</p>
+<blockquote>
+<p>“We tried existing platforms, but the costs were too high and the answers were often not good enough.”</p>
+</blockquote>
+<h2 id="the-goal">The Goal</h2>
+<p>Build a fast, flexible enrichment system (in under one month) that:</p>
+<ul>
+<li>Pulls company and contact intelligence beyond basic firmographics.</li>
+<li>Standardizes outputs for immediate use in outreach and CRM.</li>
+<li>Fits current workflows (Google Sheets + CRM).</li>
+<li>Is easy to run at scale and simple to self-host.</li>
+</ul>
+<h2 id="solution-at-a-glance">Solution at a Glance</h2>
+<p><img src="/steve-homer.gif" alt="Homer GIF"></p>
+<p>A production-grade <code>n8n</code> pipeline that turns a LinkedIn URL or company domain into a standardized, data-rich profile—ready for outreach, logging, and alerts.</p>
+<ul>
+<li><strong>Inputs:</strong> LinkedIn URL / domain pasted into Google Sheets</li>
+<li><strong>Sources:</strong> Apify scrapers, targeted research via AI, curated public web data</li>
+<li><strong>Outputs:</strong> Hiring signals, appearances, org insights, normalized job titles, deduped company/contact fields</li>
+<li><strong>Operations:</strong> Error handling, retries with backoff, run logs, Slack alerts</li>
+</ul>
+<p><em>System architecture diagram — from Sheets to n8n to enrichment to CRM</em>
+<em>Sheets → n8n Orchestrator → Data Sources (Apify/AI) → Normalizer → CRM/Sheets → Alerts</em></p>
+<h2 id="lightning-fast-process">Lightning-Fast Process</h2>
+<p><img src="/live.gif" alt="Ship">
+<em>Timeline — prototype, iterate, standardize, ship</em></p>
+<p>Four sprints: prototype in 48h, two rapid iterations, standardize and ship.</p>
+<ol>
+<li><strong>Clickable Demo in 48 Hours</strong>
+<ul>
+<li>Delivered a working prototype in 2 days to test on live leads.</li>
+<li>Immediate feedback on speed, fields, and output format.</li>
+</ul>
+</li>
+<li><strong>Rapid Iteration for True Fit</strong>
+<ul>
+<li>2–3 touchpoints/week; three major iterations.</li>
+<li>Lightweight dashboard controlled from Google Sheets—paste a LinkedIn URL and run.</li>
+<li>Each iteration shipped in ~3–4 days; final milestone reached 2 weeks early.</li>
+</ul>
+</li>
+<li><strong>Standardize &amp; Ship</strong>
+<ul>
+<li>Clean, reusable <code>n8n</code> workflow (JSON) for self-hosting.</li>
+<li>Dashboard for smoother interaction.</li>
+<li>Loom walkthroughs + quickstart docs.</li>
+<li>Seamless handoff—team started using it the same day.</li>
+</ul>
+</li>
+</ol>
+<h2 id="results">Results</h2>
+<ul>
+<li><strong>Sales increased by 10%</strong> within the first month.</li>
+<li>Faster, higher-quality outreach with richer prospect understanding.</li>
+<li>Delivery time cut in half versus the initial plan.</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Before (Clay/Apollo)</th>
+          <th>After (Custom Automation)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Surface-level data</td>
+          <td>Deep enrichment (hiring, appearances, org signals)</td>
+      </tr>
+      <tr>
+          <td>Slow, manual enrichment</td>
+          <td>Automated in under two minutes per lead</td>
+      </tr>
+      <tr>
+          <td>Generic lists</td>
+          <td>Standardized, actionable profiles</td>
+      </tr>
+      <tr>
+          <td>Missed prospects</td>
+          <td>Sharper targeting and stronger follow-up</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Before vs After — depth and speed of enrichment. Better context, faster research, clearer targets.</em></p>
+<h2 id="performance--reliability">Performance &amp; Reliability</h2>
+<ul>
+<li>One-click runs from Google Sheets; standardized JSON/CSV outputs.</li>
+<li>Retries with exponential backoff; Slack alerts on failures.</li>
+<li>Logging and run history for quick troubleshooting.</li>
+<li>Designed to scale from hundreds to thousands of leads with batching and rate-limit awareness.</li>
+</ul>
+<p><em>Reliability &amp; monitoring — retries, alerts, logs. Reliability built-in: retries, alerts, and traceable runs.</em></p>
+<h2 id="compliance--data-ethics">Compliance &amp; Data Ethics</h2>
+<ul>
+<li>Public web sources only; robots-aware collection, no credentialed scraping.</li>
+<li>Rate-limit friendly; respects provider ToS.</li>
+<li>Optional deployment in client VPS or on self-hosted <code>n8n</code>.</li>
+</ul>
+<p><em>Compliance &amp; data ethics summary. Transparent collection, respectful automation.</em></p>
+<h2 id="deliverables">Deliverables</h2>
+<p><img src="/jump.gif" alt="Jump"></p>
+<ul>
+<li><code>n8n</code> workflow (JSON) for cloud or self-hosted deployment.</li>
+<li>Custom dashboard for reviewing leads and inputting new prospects.</li>
+<li>Field mapping and data dictionary for CRM consistency.</li>
+<li>Loom training videos and quickstart documentation.</li>
+</ul>
+<h2 id="tech-stack">Tech Stack</h2>
+<ul>
+<li><strong>Orchestration:</strong> <code>n8n</code></li>
+<li><strong>Data:</strong> Apify, curated public web sources</li>
+<li><strong>AI:</strong> Targeted research and synthesis</li>
+<li><strong>Ops:</strong> Google Sheets, webhooks, retries, logging, Slack alerts, HTML, CSS, JS</li>
+</ul>
+<h2 id="the-client-says">The Client Says</h2>
+<blockquote>
+<p>“When we started, we didn’t really quite know what the end product should look like&hellip; but Noah made sense of our rough ideas, built exactly what we needed, and delivered more than we expected. The iterative process was a lifesaver.”</p>
+</blockquote>
+<h2 id="like-these-results">Like These Results?</h2>
+<p>Let’s build your enrichment pipeline and start improving conversions this month.</p>
+<p><a href="mailto:noah@noahhaile.com?subject=I%20Saw%20Your%20Case%20Study%20-%20I%20Have%20A%20Request">Share your stack and goals. I’ll send a quick build plan and timeline.</a></p>
+<hr>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/tags/automation/">Automation</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/case-study/">Case Study</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/n8n/">n8n</a></span>
+        <span class="tag"><a href="http://localhost:1313/tags/revenue-operations/">Revenue Operations</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>  
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        638 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2025-08-02 10:57
+        
+
+         
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;caption=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;canonicalUrl=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;body=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f&amp;media=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f;description=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f&amp;title=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;summary=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;source=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f&amp;resubmit=true&amp;title=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f;title=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation%20http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f&amp;t=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Case%20Study%20%231%3a%20Custom%20n8n%20Data%20Enrichment%20%26%20Automation&amp;url=http%3a%2f%2flocalhost%3a1313%2farticles%2fsupercharging-b2b-sales%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+    <div class="pagination">
+        
+
+        <div class="pagination__buttons">
+            
+            <span class="button previous">
+                <a href="http://localhost:1313/articles/automating-frontdesk/">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">Case Study #2: ElevenLabs Voice Agent &#43; n8n Orchestration</span>
+                </a>
+            </span>
+            
+
+            
+            <span class="button next">
+                <a href="http://localhost:1313/articles/my-favorite-architecture/">
+                    <span class="button__text">My New Favorite Architecture: Using n8n as a Mid Server</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </main>
+
+        </div>
+
+        
+        <footer class="footer">
+    
+    
+</footer>
+
+        
+    </div>
+
+    
+
+
+
+<script type="text/javascript" src="/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+</body>
+
+</html>
