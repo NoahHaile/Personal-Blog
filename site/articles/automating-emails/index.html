@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Study #3: Email Triage, Drafting & Follow-Ups with n8n + Outlook :: Noah Hailegiorgis</title>
+  <meta name="description" content="An AI-assisted Outlook workflow that classified mail, drafted replies, and kept follow-ups on schedule, cutting a founder's inbox time from 3.5 hours a day to about 30 minutes.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/articles/automating-emails/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Case Study #3: Email Triage, Drafting & Follow-Ups with n8n + Outlook">
+  <meta property="og:description" content="An AI-assisted Outlook workflow that cut a founder's inbox time from 3.5 hours a day to about 30 minutes.">
+  <meta property="og:image" content="https://noahhaile.com/mailbox.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="../../index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="../../articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p class="post-meta">2025-08-07 &middot; Case Study</p>
+        <h1 class="post-title">AI Email Triage and Follow-Ups in Outlook</h1>
+
+
+        <div class="post-content">
+          <p>A small web-design agency for local Australian businesses ran everything out of a single Outlook inbox. The owner, Michael, was spending hours a day on email. I built an AI-assisted triage workflow that cut his inbox time from about 3.5 hours a day to roughly 30 minutes.</p>
+
+          <h2>Results at a glance</h2>
+          <ul>
+            <li>Founder time cut from <strong>~3.5 hours/day to ~0.5 hours/day</strong></li>
+            <li><strong>20–30 emails/day</strong> auto-handled, plus scheduled follow-ups</li>
+            <li>Lead replies in <strong>seconds</strong>; invoice nudges sent on time, every time</li>
+            <li><strong>Prototype in 1 day, live in 5</strong></li>
+          </ul>
+
+          <h2>The problem</h2>
+          <p>Michael ran the business from one Outlook inbox, no automation, no CRM. He needed to reliably categorize incoming mail (leads, invoices, support, spam), send instant personalized replies where it was safe and draft the rest for quick approval, keep lead and invoice follow-ups on schedule without tracking them by hand, stay compliant with Australia's Spam Act, and keep it all inside Outlook.</p>
+
+          <h2>What I built</h2>
+          <p>An n8n workflow that watches the Outlook inbox, classifies each message, drafts or sends a response, and schedules follow-ups, logging every action to a Google Sheet for review.</p>
+          <ul>
+            <li><strong>Classifies</strong> each message: lead, quote, invoice/payment, support, spam, or out-of-office</li>
+            <li><strong>Replies:</strong> instant send for low-risk, high-confidence cases; one-click-approve drafts for anything nuanced</li>
+            <li><strong>Lead follow-ups:</strong> instant first reply, then nudges at +2 and +5 business days, auto-stopping on a reply or booked call</li>
+            <li><strong>Invoice follow-ups:</strong> pre-due, due-day, +3 and +7 business days, pausing after two unanswered</li>
+            <li><strong>Personalization:</strong> business name, suburb, service requested, and prior thread context, in local tone and spelling</li>
+            <li><strong>Operations:</strong> sends only during AEST/AEDT business hours; idempotent processing, retries with backoff, and failure alerts</li>
+          </ul>
+
+          <h2>The results</h2>
+          <p>Founder time dropped from roughly 3.5 to 0.5 hours a day. Lead response fell to seconds in straightforward cases, and drafts cut the rest to minutes. Invoices got consistent, on-brand reminders with no manual tracking.</p>
+          <table>
+            <thead>
+              <tr><th>Before (manual inbox)</th><th>After (AI-assisted flow)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Missed and late follow-ups</td><td>Scheduled nudges for leads and invoices</td></tr>
+              <tr><td>Slow, inconsistent replies</td><td>Instant replies or ready-to-send drafts</td></tr>
+              <tr><td>No system of record</td><td>Google Sheets log with status and next step</td></tr>
+              <tr><td>High founder time cost</td><td>3+ hours/day saved</td></tr>
+            </tbody>
+          </table>
+
+          <blockquote>"My inbox used to run my day. Now it's the other way around. Replies go out fast, follow-ups never slip, and I only review the tricky ones. I got back about three hours every day without losing the personal touch."</blockquote>
+
+          <p><strong>Compliance:</strong> built to Australia's Spam Act 2003, sender identification and an opt-out line on non-transactional follow-ups, no cold sending, and DKIM/SPF/DMARC validated through the Microsoft 365 tenant.</p>
+
+          <p><strong>Built with:</strong> n8n, Microsoft 365 Outlook (Graph API), and Google Sheets.</p>
+
+          <p>Want your inbox to run itself? <a href="mailto:noahhaile@clickedtools.com?subject=I%20Saw%20Your%20Case%20Study%20-%20I%20Have%20A%20Request">Tell me your stack and goals</a> and I'll send back a build plan and timeline.</p>
+        </div>
+
+        <p class="post-tags">
+          Tagged:
+          <a href="../../articles/index.html">Automation</a>,
+          <a href="../../articles/index.html">Case Study</a>,
+          <a href="../../articles/index.html">n8n</a>,
+          <a href="../../articles/index.html">Revenue Operations</a>
+        </p>
+      </article>
+
+      <nav class="post-nav">
+        <a class="prev" href="../../articles/automating-outreach/index.html">← Case Study #4: Cold Outbound Automation (Clay → Smartlead via n8n)</a>
+        <a class="next" href="../../articles/automating-frontdesk/index.html">Case Study #2: ElevenLabs Voice Agent + n8n Orchestration →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="../../index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>
