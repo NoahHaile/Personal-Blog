@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noah Hailegiorgis</title>
+  <meta name="description"
+    content="Automation engineer. Founder of ClickedTools, creator of ShaderDojo. I build production automations and AI workflows.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="alternate" type="application/rss+xml" href="index.xml" title="Noah Hailegiorgis">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Noah Hailegiorgis">
+  <meta property="og:description" content="Automation engineer. Founder of ClickedTools, creator of ShaderDojo.">
+  <meta name="twitter:card" content="summary">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { }
+    })();
+  </script>
+  <!-- Handwriting font for the tic-tac-toe game (degrades to a system hand font offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="page-home">
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="home">
+      <h1>Noah Hailegiorgis</h1>
+      <p class="subtitle">Automation engineer</p>
+      <p class="bio">I build B2B software, automations and AI workflows. Working on <a href="https://clickedtools.com"
+          target="_blank" rel="noopener">ClickedTools</a> and <a href="https://shaderdojo.org" target="_blank"
+          rel="noopener">ShaderDojo</a>.</p>
+      <p class="home-links">
+        <a href="articles/index.html">Writing</a> ·
+        <a href="mailto:noahhaile@clickedtools.com">Email</a> ·
+        <a href="https://linkedin.com/in/noahhaile" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://t.me/xyzfind" target="_blank" rel="noopener">Telegram</a>
+      </p>
+
+      <section class="game" aria-label="Tic-tac-toe">
+        <p class="game-subtitle">Have some time to kill? Play a game.</p>
+        <div class="ttt-board" id="ttt-board">
+          <button class="ttt-cell" data-i="0" aria-label="cell 1"></button>
+          <button class="ttt-cell" data-i="1" aria-label="cell 2"></button>
+          <button class="ttt-cell" data-i="2" aria-label="cell 3"></button>
+          <button class="ttt-cell" data-i="3" aria-label="cell 4"></button>
+          <button class="ttt-cell" data-i="4" aria-label="cell 5"></button>
+          <button class="ttt-cell" data-i="5" aria-label="cell 6"></button>
+          <button class="ttt-cell" data-i="6" aria-label="cell 7"></button>
+          <button class="ttt-cell" data-i="7" aria-label="cell 8"></button>
+          <button class="ttt-cell" data-i="8" aria-label="cell 9"></button>
+        </div>
+        <p class="game-status" id="ttt-status" aria-live="polite"></p>
+        <button class="game-reset" id="ttt-reset">Reset</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/tictactoe.js"></script>
+</body>
+
+</html>

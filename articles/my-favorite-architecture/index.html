@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My New Favorite Architecture: Using n8n as a Mid Server :: Noah Hailegiorgis</title>
+  <meta name="description" content="Moving past an initial skepticism towards visual builders.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/articles/my-favorite-architecture/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="My New Favorite Architecture: Using n8n as a Mid Server">
+  <meta property="og:description" content="Moving past an initial skepticism towards visual builders.">
+  <meta property="og:image" content="https://noahhaile.com/elephant.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="../../index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="../../articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p class="post-meta">2025-05-30 &middot; 2 min read</p>
+        <h1 class="post-title">My New Favorite Architecture: Using n8n as a Mid Server</h1>
+
+
+        <div class="post-content">
+          <p>For a while, my pride told me visual builders weren't for <em>professional</em> engineers. I never said it out loud, but I thought it: drag-and-drop tools were suitable for prototypes, business folks, or anyone trying to avoid writing <em>conventional</em> code. They weren't for people who knew how to build things <strong>the established way.</strong> Then I started using n8n to build AI agents, and it didn't take long before my conviction began to waver. Because pretty quickly, I realized that instead of a limitation, this was a superpower.</p>
+
+          <h2>The Architecture</h2>
+          <p>Now, n8n is a core part of how I build. Not as a replacement for my backend, but as a mid server, a logic layer that handles:</p>
+          <ul>
+            <li>Third-party integrations</li>
+            <li>Cron jobs</li>
+            <li>Automation flows</li>
+            <li>AI agents</li>
+            <li>Webhook juggling</li>
+          </ul>
+          <p>All things that don't need to live in my backend, but still need to be coordinated, extended, and monitored. n8n and my backend communicate seamlessly over webhooks. n8n handles the flow, the timing, the retries, the service coordination. My backend owns state, authentication, data persistence, which represent the critical boundaries. The result is a clear split: logic orchestration in one place, core systems in another. It's neither a monolith, microservices, nor serverless. It's a hybrid approach that works.</p>
+
+          <h2>Code Reuse Without the Overhead</h2>
+          <p>One thing I noticed fast: stuff just doesn't get duplicated as much. Workflows become natural units of reuse. One webhook handler can become three different triggers. An agent prompt with branching logic can be cloned and remixed. A cron-based report doesn't have to live in a buried script anymore; it's visible, tweakable, and versioned. And I don't have to make the tradeoff between speed and clarity. A change that would normally mean touching four files, two services, and a deployment… just becomes a new node and a test run.</p>
+
+          <h2>The AI Layer That Actually Scales</h2>
+          <p>Once I started layering in AI-native behavior, this setup really hit its stride. AI integrations are inherently async, API-intensive, and often experimental. You're juggling prompts, chaining models, enriching outputs, and coordinating side effects. Trying to bake all that into a traditional backend is chaos.</p>
+          <p>With n8n, I construct agent pipelines with a visual and intuitive workflow. One part fetches history, one part formats the context, one calls a model, another logs the result, another decides what to do next. If a branch fails? I can retry it, isolate it, rewire it. It makes experimentation genuinely feasible. I can treat AI agents as dynamic entities, not static endpoints.</p>
+        </div>
+
+        <p class="post-tags">
+          Tagged:
+          <a href="../../articles/index.html">Software Architecture</a>,
+          <a href="../../articles/index.html">Automation</a>,
+          <a href="../../articles/index.html">n8n</a>
+        </p>
+      </article>
+
+      <nav class="post-nav">
+        <a class="prev" href="../../articles/automating-b2b-enrichment/index.html">← 10% More Sales in a Month: Custom n8n Enrichment for Enterprise Sales</a>
+        <a class="next" href="../../articles/build-for-a-lifetime/index.html">Great Software Engineers Build for a Lifetime →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="../../index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>

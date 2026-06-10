@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1,000 Emails a Day at a 2% Reply Rate: Automated Clay → Smartlead Outbound :: Noah Hailegiorgis</title>
+  <meta name="description" content="A self-hosted n8n pipeline connecting Clay to Smartlead, personalized cold outbound at up to 1,000 emails a day, with clean data and protected deliverability.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/articles/automating-outreach/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="1,000 Emails a Day at a 2% Reply Rate: Automated Clay → Smartlead Outbound">
+  <meta property="og:description" content="A self-hosted n8n pipeline connecting Clay to Smartlead, personalized cold outbound at up to 1,000 emails a day.">
+  <meta property="og:image" content="https://noahhaile.com/plane.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="../../index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="../../articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p class="post-meta">2025-08-09 &middot; Case Study</p>
+        <h1 class="post-title">1,000 Emails a Day at a 2% Reply Rate: Automated Clay → Smartlead Outbound</h1>
+
+        <p class="flow">Clay records <span class="arrow">&rarr;</span> enrich, validate, personalize <span class="arrow">&rarr;</span> Smartlead campaigns</p>
+
+        <dl class="snapshot">
+          <div><dt>Industry</dt><dd>Visitor-attribution SaaS</dd></div>
+          <div><dt>Region</dt><dd>United States</dd></div>
+          <div><dt>Stack</dt><dd>n8n (self-hosted), Clay, Smartlead, Supabase</dd></div>
+          <div><dt>Scale</dt><dd>Up to 1,000 emails/day</dd></div>
+        </dl>
+
+        <div class="post-content">
+          <p>This is the pipeline when the destination is an outbound engine. A visitor-attribution SaaS (it identifies up to 70% of a site's U.S. visitors) could enrich prospects in Clay and had Smartlead ready to send, but nothing moved clean, validated records from one to the other at scale. I built the founder, Stephen, a self-hosted n8n pipeline that pulls enriched records out of Clay, validates and personalizes them, and feeds them into the right Smartlead campaign, with the data hygiene and deliverability safeguards to send up to 1,000 a day safely. The core job, again: take data from one place and land it, clean, in another.</p>
+
+          <h2>Results at a glance</h2>
+          <ul>
+            <li>End-to-end <strong>Clay → Smartlead</strong> pipeline, fully automated on self-hosted n8n</li>
+            <li>Up to <strong>1,000 emails/day</strong> with safe sending and governance</li>
+            <li>Reply rate lifted to <strong>2%</strong> with persona-specific messaging</li>
+            <li>AI persona templates by <strong>industry, company size, title, and role</strong></li>
+            <li>Supabase for clean storage, suppressions, and logs</li>
+          </ul>
+
+          <h2>The problem</h2>
+          <p>The pieces existed, but the connection didn't. The team was missing a reliable way to sync "ready" records into the right Smartlead campaigns at scale, data governance (dedupes, suppressions for customers and competitors, opt-outs), personalization that didn't wreck deliverability, and a feedback loop to classify replies and route the positive ones fast. Manual CSV shuffling slowed every launch and put sender reputation at risk.</p>
+
+          <h2>What I built</h2>
+          <p>An n8n-orchestrated pipeline that turns Clay tables into live, personalized Smartlead campaigns, with governance built in and a closed loop on replies.</p>
+          <ul>
+            <li><strong>Intake:</strong> pulls "ready" rows from Clay, normalizing and verifying fields before syncing</li>
+            <li><strong>Hygiene:</strong> dedupes by email and domain; global suppressions for customers, partners, competitors, and past unsubscribers</li>
+            <li><strong>Personalization:</strong> AI templates by industry, company size, and role, with fallbacks so nothing half-personalized ever sends</li>
+            <li><strong>Sending:</strong> assigns campaigns by persona, respects per-mailbox daily caps and warmup, and rotates inboxes to protect reputation</li>
+            <li><strong>Replies:</strong> Smartlead webhook → n8n classifier (positive / neutral / negative / OOO / bounce); positives trigger an instant alert with a booking link, OOOs reschedule, bounces suppress</li>
+            <li><strong>Observability:</strong> Supabase logs every record and send, with a daily digest and error alerts</li>
+          </ul>
+          <p>It runs self-hosted on a VPS, with SPF/DKIM/DMARC on every sending domain and least-privilege credentials.</p>
+
+          <h2>The results</h2>
+          <p>The Clay → Smartlead sync is fully automated, with governance and observability throughout. Outreach is personalized at scale without sacrificing deliverability, and the reply rate improved to 2% with persona-specific messaging.</p>
+          <table>
+            <thead>
+              <tr><th>Before (manual / ad-hoc)</th><th>After (automated &amp; governed)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>CSV imports and field drift</td><td>n8n mapping and validation at the edge</td></tr>
+              <tr><td>Duplicates and bad targets</td><td>Dedup, suppressions, and safety checks</td></tr>
+              <tr><td>Generic, one-size-fits-all copy</td><td>AI persona templates by segment</td></tr>
+              <tr><td>Missed replies and OOOs</td><td>Webhook routing and automated reschedules</td></tr>
+            </tbody>
+          </table>
+
+          <p><strong>Compliance:</strong> built to CAN-SPAM, clear sender identity, a physical address, and a working opt-out, with unsubscribes and suppressed domains always honored.</p>
+
+          <p><strong>Built with:</strong> n8n (self-hosted), Clay, Smartlead, Supabase, and email/Slack alerts.</p>
+
+          <p>Want Clay and Smartlead connected the right way? <a href="mailto:noahhaile@clickedtools.com?subject=I%20Saw%20Your%20Case%20Study%20-%20I%20Have%20A%20Request">Tell me your stack and goals</a> and I'll send back a build plan and timeline.</p>
+        </div>
+
+        <p class="post-tags">
+          Tagged:
+          <a href="../../articles/index.html">Automation</a>,
+          <a href="../../articles/index.html">Case Study</a>,
+          <a href="../../articles/index.html">n8n</a>,
+          <a href="../../articles/index.html">Revenue Operations</a>
+        </p>
+      </article>
+
+      <nav class="post-nav">
+        <a class="prev" href="../../articles/b2b-marketplace-automation/index.html">← Keeping Reps on Top of Every Relationship: Automation for a B2B Marketplace</a>
+        <a class="next" href="../../articles/automating-emails/index.html">From 3.5 Hours a Day to 30 Minutes: AI Email Triage in Outlook →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="../../index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>

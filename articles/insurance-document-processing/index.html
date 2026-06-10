@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Closing the Lead-to-Bind Gap: AI Document Processing Across Six Insurance Agencies :: Noah Hailegiorgis</title>
+  <meta name="description" content="Document-processing pipelines for Archway Computers that read quotes, endorsements, policies, and forms across six insurance agencies and freed producers from thousands of manual entries a month.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/articles/insurance-document-processing/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Closing the Lead-to-Bind Gap: AI Document Processing Across Six Insurance Agencies">
+  <meta property="og:description" content="Document-processing pipelines that read insurance documents across six agencies and freed producers from manual data entry.">
+  <meta name="twitter:card" content="summary">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="../../index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="../../articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p class="post-meta">2025&ndash;present &middot; Case Study</p>
+        <h1 class="post-title">Closing the Lead-to-Bind Gap: AI Document Processing Across Six Insurance Agencies</h1>
+
+        <p class="flow">Quotes, endorsements, policies, forms <span class="arrow">&rarr;</span> extract, validate, normalize <span class="arrow">&rarr;</span> AMS360 / Applied Epic / EZLynx / CRM</p>
+
+        <dl class="snapshot">
+          <div><dt>Client</dt><dd>Archway Computers</dd></div>
+          <div><dt>Scope</dt><dd>6 independent US insurance agencies</dd></div>
+          <div><dt>Documents</dt><dd>Quotes, endorsements, policies, forms</dd></div>
+          <div><dt>Stack</dt><dd>n8n, Playwright, AMS360, Applied Epic, EZLynx, Dynamics CRM</dd></div>
+          <div><dt>Volume</dt><dd>Thousands of documents / month</dd></div>
+        </dl>
+
+        <div class="post-content">
+          <p>This is the pipeline at its most demanding: insurance documents in, clean records in the agency's management system out. Archway Computers brought me in to automate the document-heavy back office of six independent US insurance agencies (Clifford &amp; Bradford, Bailey Family, PolicyWatch, Sterling, Marathon, and Nau). Producers were stuck hand-reading quotes, endorsements, policies, and forms and re-keying them across a patchwork of AMS and CRM systems. I built the document-processing pipelines that read those documents, validate what comes out, and push structured data into the right place, so producers spend their time selling instead of typing. I can't share every detail under the engagement, but here is the shape of the work.</p>
+
+          <h2>The problem</h2>
+          <p>These agencies weren't short on software. Between them they ran AMS360, Applied Epic, EZLynx, and Dynamics CRM, and they were underusing systems they already paid for, because feeding those systems was manual. A producer read each incoming document by hand and typed the data into the AMS before a quote could move toward bind. The documents themselves fought back: scanned, photographed, hand-filled, and laid out differently by every carrier. At volume, that reading-and-re-keying was a constant drag on the lead-to-bind gap, and it was exactly the repetitive work that burns out good producers. Multiply it across six agencies on four different stacks and the manual approach simply didn't scale.</p>
+
+          <h2>What I built</h2>
+          <p>A set of document-processing pipelines, orchestrated in n8n, that own the messy middle between a raw document and a clean record in the system of record. The same backbone runs at every agency; only the endpoints change.</p>
+
+          <h3>Ingestion and extraction</h3>
+          <p>Each pipeline takes a document in whatever form it arrives (emailed PDF, scan, or phone photo) and extracts the fields that matter. I lean on strong prompting with capable models first, plus OCR and cleanup for the photographed and hand-filled documents, where layouts are inconsistent and handwriting is in the mix.</p>
+
+          <h3>Validation and schema enforcement</h3>
+          <p>Extraction is only useful if you can trust it. Every output is checked against a strict schema (Zod): if a record doesn't validate, it doesn't pass. Low-confidence or failed documents drop into a review queue for a human instead of silently writing bad data into a policy system, where a wrong number has real consequences.</p>
+
+          <h3>Mapping and routing into the AMS</h3>
+          <p>Validated data is mapped into the exact shape each agency's AMS or CRM expects, then written in. Where a system exposed a clean API, I used it; where it didn't, browser automation with Playwright drove the interface the way a person would, reliably and unattended.</p>
+
+          <h3>Agents and the work downstream</h3>
+          <p>With clean data in place, AI agents handle the steps that used to sit on a producer's desk: the follow-on actions, the routing, the busywork between a document landing and a quote moving forward.</p>
+
+          <h3>Observability and reliability</h3>
+          <p>Nothing is a black box. Every pipeline run is logged, so a failure is visible and traceable rather than a mystery. I built a gold-standard test set early and regression-tested every change against it, so improving one document type couldn't quietly break another. That discipline matters more in insurance than almost anywhere: the cost of a silent error is a mis-bound policy.</p>
+
+          <h2>How I approached it</h2>
+          <p>My default was the simplest implementation that works: strong prompting and a clean API call before anything custom. The hard part here was never a single model call; it was making the whole thing reliable across six agencies, four management systems, and documents that never look the same twice.</p>
+
+          <h2>The results</h2>
+          <p>Thousands of documents a month now flow through these pipelines instead of through a producer's hands. The manual reading-and-re-keying that bottlenecked every quote is automated, validated data lands in the systems the agencies already pay for, and they move from lead to bind without the back-office drag. Producers are freed for the work that actually needs a person. Specific figures stay with the client under the engagement.</p>
+
+          <p><strong>Built with:</strong> n8n, Playwright, LLM-based extraction and OCR, Zod schema validation, AMS360, Applied Epic, EZLynx, and Dynamics CRM.</p>
+
+          <p>Have a document-heavy process slowing your team down? <a href="mailto:noahhaile@clickedtools.com?subject=I%20Saw%20Your%20Case%20Study%20-%20I%20Have%20A%20Request">Tell me your stack and goals</a> and I'll send back a build plan and timeline.</p>
+        </div>
+
+        <p class="post-tags">
+          Tagged:
+          <a href="../../articles/index.html">Document Processing</a>,
+          <a href="../../articles/index.html">Insurance</a>,
+          <a href="../../articles/index.html">Automation</a>,
+          <a href="../../articles/index.html">Case Study</a>
+        </p>
+      </article>
+
+      <nav class="post-nav">
+        <a class="next" href="../../articles/support-knowledge-base/index.html">From Ticket to Answer in Under a Minute: An AI Support Knowledge Base →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="../../index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>

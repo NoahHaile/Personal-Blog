@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noah Hailegiorgis</title>
+    <link>https://noahhaile.com/</link>
+    <description>Automation engineer. Founder of ClickedTools, creator of ShaderDojo.</description>
+    <language>en-us</language>
+    <atom:link href="https://noahhaile.com/index.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Closing the Lead-to-Bind Gap: AI Document Processing Across Six Insurance Agencies</title>
+      <link>https://noahhaile.com/articles/insurance-document-processing/</link>
+      <guid>https://noahhaile.com/articles/insurance-document-processing/</guid>
+      <pubDate>Wed, 10 Jun 2026 10:00:00 +0300</pubDate>
+      <description>Document-processing pipelines for Archway Computers that read quotes, endorsements, policies, and forms across six insurance agencies, freeing producers from thousands of manual entries a month.</description>
+    </item>
+    <item>
+      <title>From Ticket to Answer in Under a Minute: An AI Support Knowledge Base</title>
+      <link>https://noahhaile.com/articles/support-knowledge-base/</link>
+      <guid>https://noahhaile.com/articles/support-knowledge-base/</guid>
+      <pubDate>Tue, 02 Jun 2026 10:00:00 +0300</pubDate>
+      <description>An AI knowledge base built from a CRM company's own tickets and docs that drafts grounded support replies for agents to approve in Helpwise.</description>
+    </item>
+    <item>
+      <title>Keeping Reps on Top of Every Relationship: Automation for a B2B Marketplace</title>
+      <link>https://noahhaile.com/articles/b2b-marketplace-automation/</link>
+      <guid>https://noahhaile.com/articles/b2b-marketplace-automation/</guid>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0300</pubDate>
+      <description>A long-term technical partnership for a B2B vendor agency: relationship tracking, document ingestion, and a knowledge base.</description>
+    </item>
+    <item>
+      <title>1,000 Emails a Day at a 2% Reply Rate: Automated Clay → Smartlead Outbound</title>
+      <link>https://noahhaile.com/articles/automating-outreach/</link>
+      <guid>https://noahhaile.com/articles/automating-outreach/</guid>
+      <pubDate>Sat, 09 Aug 2025 10:57:26 +0300</pubDate>
+      <description>A self-hosted n8n pipeline connecting Clay to Smartlead. Personalized cold outbound at up to 1,000 emails a day, reply rate lifted to 2%.</description>
+    </item>
+    <item>
+      <title>From 3.5 Hours a Day to 30 Minutes: AI Email Triage in Outlook</title>
+      <link>https://noahhaile.com/articles/automating-emails/</link>
+      <guid>https://noahhaile.com/articles/automating-emails/</guid>
+      <pubDate>Thu, 07 Aug 2025 10:57:26 +0300</pubDate>
+      <description>An AI-assisted Outlook workflow that cut a founder's inbox time from about 3.5 hours a day to roughly 30 minutes.</description>
+    </item>
+    <item>
+      <title>Front-Desk Support at $0.08 a Call: A 24/7 AI Voice Agent</title>
+      <link>https://noahhaile.com/articles/automating-frontdesk/</link>
+      <guid>https://noahhaile.com/articles/automating-frontdesk/</guid>
+      <pubDate>Mon, 04 Aug 2025 10:57:26 +0300</pubDate>
+      <description>A 24/7 AI voice agent that replaced front-desk booking and tier-1 support, at about $0.08 per call.</description>
+    </item>
+    <item>
+      <title>10% More Sales in a Month: Custom n8n Enrichment for Enterprise Sales</title>
+      <link>https://noahhaile.com/articles/automating-b2b-enrichment/</link>
+      <guid>https://noahhaile.com/articles/automating-b2b-enrichment/</guid>
+      <pubDate>Sat, 02 Aug 2025 10:57:26 +0300</pubDate>
+      <description>A custom n8n enrichment pipeline that lifted enterprise sales 10% in the first month, at $0.06 per enriched lead.</description>
+    </item>
+    <item>
+      <title>My New Favorite Architecture: Using n8n as a Mid Server</title>
+      <link>https://noahhaile.com/articles/my-favorite-architecture/</link>
+      <guid>https://noahhaile.com/articles/my-favorite-architecture/</guid>
+      <pubDate>Fri, 30 May 2025 10:57:26 +0300</pubDate>
+      <description>Moving past an initial skepticism towards visual builders.</description>
+    </item>
+    <item>
+      <title>Great Software Engineers Build for a Lifetime</title>
+      <link>https://noahhaile.com/articles/build-for-a-lifetime/</link>
+      <guid>https://noahhaile.com/articles/build-for-a-lifetime/</guid>
+      <pubDate>Mon, 12 May 2025 10:57:26 +0300</pubDate>
+      <description>Building software with longevity — reusable systems and solid foundations — is how engineers truly grow.</description>
+    </item>
+    <item>
+      <title>Blazing Fast &amp; Dirt Cheap: Nginx, Cloudflare, and a VPS</title>
+      <link>https://noahhaile.com/articles/dirt-cheap-web-apps/</link>
+      <guid>https://noahhaile.com/articles/dirt-cheap-web-apps/</guid>
+      <pubDate>Sat, 22 Mar 2025 10:57:26 +0300</pubDate>
+      <description>Get fast, cheap global hosting for your React or Vue app with a basic VPS, Nginx, and Cloudflare's free tier.</description>
+    </item>
+  </channel>
+</rss>

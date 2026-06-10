@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Front-Desk Support at $0.08 a Call: A 24/7 AI Voice Agent :: Noah Hailegiorgis</title>
+  <meta name="description" content="A 24/7 AI voice agent that replaced front-desk booking and tier-1 support for an IT training company, at about $0.08 per call.">
+  <meta name="author" content="Noah Hailegiorgis">
+  <link rel="canonical" href="https://noahhaile.com/articles/automating-frontdesk/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Front-Desk Support at $0.08 a Call: A 24/7 AI Voice Agent">
+  <meta property="og:description" content="A 24/7 AI voice agent handling booking and tier-1 support at about $0.08 per call.">
+  <meta property="og:image" content="https://noahhaile.com/parrot2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <a class="logo" href="../../index.html"><span class="mark">&gt;</span>Noah Hailegiorgis</a>
+      <nav class="site-nav">
+        <a href="../../articles/index.html">Writing</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a class="external" href="https://clickedtools.com" target="_blank" rel="noopener">ClickedTools</a>
+        <a class="external" href="https://shaderdojo.org" target="_blank" rel="noopener">ShaderDojo</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22 3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p class="post-meta">2025-08-04 &middot; Case Study</p>
+        <h1 class="post-title">Front-Desk Support at $0.08 a Call: A 24/7 AI Voice Agent</h1>
+
+        <p class="flow">Phone calls <span class="arrow">→</span> transcribe, understand, route <span class="arrow">→</span> Dynamics 365 + ticketing</p>
+
+        <dl class="snapshot">
+          <div><dt>Industry</dt><dd>IT training &amp; placement</dd></div>
+          <div><dt>Users</dt><dd>Graduates &amp; IT professionals</dd></div>
+          <div><dt>Stack</dt><dd>ElevenLabs, Twilio, n8n, Dynamics 365</dd></div>
+          <div><dt>Timeline</dt><dd>Demo in 2 weeks, live in 6</dd></div>
+        </dl>
+
+        <div class="post-content">
+          <p>This is the pipeline when the source is a phone call. An IT training and placement company wanted a front desk that runs around the clock without the staffing cost. I put an AI voice agent on the line that captures what each caller needs, books the consultation, and writes the outcome (transcript, tags, next step) straight into their Dynamics 365 CRM and ticketing, at about $0.08 a call. It is the same core job as every build here: pull structured data out of one channel, validate it, and land it clean in another.</p>
+
+          <h2>Results at a glance</h2>
+          <ul>
+            <li><strong>24/7</strong> automated booking and tier-1 support</li>
+            <li>Met the <strong>≥95%</strong> task-completion / containment target</li>
+            <li>Real-time CRM logging with <strong>transcripts and outcome tags</strong></li>
+            <li><strong>~$0.08 per call</strong> (typically 60–90 seconds, usage-based)</li>
+            <li><strong>Demo-ready in 2 weeks</strong>, full rollout in 6</li>
+          </ul>
+
+          <h2>The problem</h2>
+          <p>Human support was expensive, and staff lost time constantly switching between CRM updates, scheduling, ticketing, and multichannel communication across email, phone, and chat. The repetitive work drained resources, slowed response times, and clashed with the company's modern, tech-forward brand.</p>
+
+          <h2>What I built</h2>
+          <p>An AI voice agent that answers calls, books consultations, and resolves tier-1 questions, then logs everything back to the CRM in real time.</p>
+          <ul>
+            <li><strong>Voice:</strong> ElevenLabs over Twilio</li>
+            <li><strong>Orchestration:</strong> n8n coordinating multiple microservices through a custom Model Context Protocol (MCP) server</li>
+            <li><strong>Integrations:</strong> Microsoft Teams, Dynamics 365 CRM, Outlook calendar, and custom AI tools</li>
+            <li><strong>Reliability:</strong> tuned over roughly 3-day iteration cycles to hit the ≥95% containment benchmark</li>
+          </ul>
+          <p>Delivered with Loom walkthroughs, full documentation, team training, and optional ongoing maintenance.</p>
+
+          <h2>The results</h2>
+          <p>The agent went live on schedule. Human workload for basic support and scheduling dropped significantly, faster bookings and response times lifted customer satisfaction, and staff were freed to focus on higher-value engagement and case management.</p>
+          <table>
+            <thead>
+              <tr><th>Before (manual support)</th><th>After (AI automation)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>High recurring costs</td><td>Major labor savings</td></tr>
+              <tr><td>Error-prone integrations</td><td>Seamless, automated cross-system flow</td></tr>
+              <tr><td>Slow bookings and ticketing</td><td>Fast, self-serve for students</td></tr>
+              <tr><td>Hard to scale</td><td>Ready for future outbound automation</td></tr>
+            </tbody>
+          </table>
+
+          <blockquote>"Noah was fast, communicative, and cracked every integration, some of which we worried weren't even possible. Our complicated set of needs felt manageable for the first time. Staff and students love the new system."</blockquote>
+
+          <p><strong>Built with:</strong> ElevenLabs, Twilio, n8n, a custom MCP server, Dynamics 365, Microsoft Teams, and Outlook.</p>
+
+          <p>Want a voice agent like this? <a href="mailto:noahhaile@clickedtools.com?subject=I%20Saw%20Your%20Case%20Study%20-%20I%20Have%20A%20Request">Tell me your stack and goals</a> and I'll send back a build plan and timeline.</p>
+        </div>
+
+        <p class="post-tags">
+          Tagged:
+          <a href="../../articles/index.html">Automation</a>,
+          <a href="../../articles/index.html">Case Study</a>,
+          <a href="../../articles/index.html">n8n</a>,
+          <a href="../../articles/index.html">Revenue Operations</a>
+        </p>
+      </article>
+
+      <nav class="post-nav">
+        <a class="prev" href="../../articles/automating-emails/index.html">← From 3.5 Hours a Day to 30 Minutes: AI Email Triage in Outlook</a>
+        <a class="next" href="../../articles/automating-b2b-enrichment/index.html">10% More Sales in a Month: Custom n8n Enrichment for Enterprise Sales →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Noah Hailegiorgis &middot; <a href="../../index.xml">RSS</a></p>
+    </footer>
+
+  </div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>

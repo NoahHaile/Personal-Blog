@@ -1,15 +1,19 @@
 #!/bin/bash
+set -e
 
-# Step 1: Pull the latest changes from the Git repository
+# Pull the latest changes, then sync the static site (repo root) to the web root.
 echo "Pulling latest changes from Git repository..."
 git checkout -- .
 git pull
 chmod +x build.sh
 
-
-# Step 3: Remove the previous contents of the target directory on the server
-echo "Removing previous site content..."
-rm -rf /var/www/noahhaile.com
+echo "Syncing site to web root (excluding repo infra)..."
 mkdir -p /var/www/noahhaile.com
-echo "Moving the Hugo site..."
-cp -r ./public/* /var/www/noahhaile.com
+rsync -a --delete \
+  --exclude='.git' \
+  --exclude='.gitignore' \
+  --exclude='build.sh' \
+  --exclude='deploy.bat' \
+  --exclude='scripts' \
+  ./ /var/www/noahhaile.com/
+echo "Done."
